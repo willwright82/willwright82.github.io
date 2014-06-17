@@ -186,7 +186,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <form role="form">
+                    <form role="form" method="POST" name="contactform" action="contact-form-handler.php">
                         <h3>Dear Will,</h3>
                         <div class="row">
                             <div class="form-group col-xs-12 floating-label-form-group">
@@ -215,6 +215,15 @@
                             </div>
                         </div>
                     </form>
+
+                    <script language="JavaScript">
+                    // Code for validating the form
+                    var frmvalidator  = new Validator("contactform");
+                    frmvalidator.addValidation("name","req","Please provide your name"); 
+                    frmvalidator.addValidation("email","req","Please provide your email"); 
+                    frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+                    </script>
+
                 </div>
             </div>
         </div>
@@ -462,6 +471,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/gen_validatorv31.js"></script>
     <script src="js/main.js"></script>
 
 </body>
