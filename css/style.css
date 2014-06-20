@@ -181,7 +181,7 @@ footer .footer-above {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     color: #ffffff;
-    background-color: #201E1D;
+    background-color: #1b1b1b;
 }
 
 section {
@@ -376,7 +376,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #201E1D;
+    background-color: #1b1b1b;
 }
 
 .btn-social {
