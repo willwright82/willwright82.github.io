@@ -212,7 +212,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center, url('../img/hero-bg@0x.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.multiplebgs .hero { background: url('../img/hero-bg.jpg') no-repeat center center, url('../img/hero-bg@0x.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.no-multiplebgs .hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
 .hero h1 { font-family: 'Source Code Pro', sans-serif; font-size: 40px; font-weight: 400; margin: 10px; letter-spacing: 0px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-family: 'Source Code Sans', sans-serif; font-weight: 300; letter-spacing: 4px; }
