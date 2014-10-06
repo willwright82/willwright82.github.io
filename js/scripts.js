@@ -142,10 +142,10 @@ $(window).load(function() {
 
 });
 
-/***************** Avgrund for Portfolio ******************/
+/***************** Portfolio Details ******************/
 
 $(function() {
-    $('.expand.first').avgrund({
+    $('.first').avgrund({
       width: 640, // max is 640px
       height: 350, // max is 350px
       showClose: true, // switch to 'true' for enabling close button
@@ -154,17 +154,252 @@ $(function() {
       closeByDocument: false, // ..and by clicking document itself
       holderClass: 'avgrund', // lets you name custom class for popin holder..
       // overlayClass: '', // ..and overlay block
-      // enableStackAnimation: false, // another animation type
       onBlurContainer: 'body', // enables blur filter for specified block
       openOnEvent: true, // set to 'false' to init on load
       setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
-      // onLoad: function (elem) { ... }, // set custom call before popin is inited..
-      // onUnload: function (elem) { ... }, // ..and after it was closed
-      template: '<p>So implement your design and place content here! If you want to close modal, please hit "Esc", click somewhere on the screen or use special button.</p>' +
-      '<div>' +
-      '<a href="http://github.com/voronianski/jquery.avgrund.js" target="_blank" class="github">Avgrund on Github</a>' +
-      '<a href="http://twitter.com/voronianski" target="_blank" class="twitter">Twitter</a>' +
-      '<a href="http://dribbble.com/voronianski" target="_blank" class="dribble">Dribbble</a>' +
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/simplefp3.jpg" class="img-responsive img-centered" alt="Simple Financial Planning">' +
+      '<h1>Simple Financial Planning</h1>' +
+      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong><a href="http://www.simplefp.co.uk" target="_blank">Simple Financial</a>' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>October 2014</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>Digital Design, UI Development</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
       '</div>'
     });
-  });
+    $('.second').avgrund({
+      width: 640, // max is 640px
+      height: 350, // max is 350px
+      showClose: true, // switch to 'true' for enabling close button
+      showCloseText: 'x', // type your text for close button
+      closeByEscape: true, // enables closing popup by 'Esc'..
+      closeByDocument: false, // ..and by clicking document itself
+      holderClass: 'avgrund', // lets you name custom class for popin holder..
+      // overlayClass: '', // ..and overlay block
+      onBlurContainer: 'body', // enables blur filter for specified block
+      openOnEvent: true, // set to 'false' to init on load
+      setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/liq3.jpg" class="img-responsive img-centered" alt="">' +
+      '<h1>Life Insurance Quotes UK</h1>' +
+      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong>Life Insurance Quotes' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>August 2014</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>Digital Design, UI Development</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
+      '</div>'
+    });
+    $('.third').avgrund({
+      width: 640, // max is 640px
+      height: 350, // max is 350px
+      showClose: true, // switch to 'true' for enabling close button
+      showCloseText: 'x', // type your text for close button
+      closeByEscape: true, // enables closing popup by 'Esc'..
+      closeByDocument: false, // ..and by clicking document itself
+      holderClass: 'avgrund', // lets you name custom class for popin holder..
+      // overlayClass: '', // ..and overlay block
+      onBlurContainer: 'body', // enables blur filter for specified block
+      openOnEvent: true, // set to 'false' to init on load
+      setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/croma3.jpg" class="img-responsive img-centered" alt="">' +
+      '<h1>Croma Marketing Solutions</h1>' +
+      // '<p>Croma Marketing Solutions is a consultancy in strategic planning, marketing management and innovation. They believe in transformation and contribute to break patterns, integrate efforts, streamline operations and empower leaders to drive change.</p>' +
+      '<p>The responsive HTML+CSS+Javascript website, created to establish the company&rsquo;s new identity, features jQuery animation, a secure content management system for the company&rsquo;s blog, and custom Google Maps. All of this is fully optimised for usability on every possible screen size, from mobiles to tablets, to large desktop monitors.</p>' +
+      '<p>In order to increase their online presence, Facebook, Google+ and Linkedin pages, a YouTube channel, and Twitter, Foursquare and Instagram profiles were created to announce events, courses, blog posts, special offers and other updates from the company.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong><a href="http://cromasolutions.com.br" target="_blank">Croma Marketing Solutions</a>' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>November 2013</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>Digital Design, UI Development, Online Presence, CMS, Social Media</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
+      '</div>'
+    });
+    $('.fourth').avgrund({
+      width: 640, // max is 640px
+      height: 350, // max is 350px
+      showClose: true, // switch to 'true' for enabling close button
+      showCloseText: 'x', // type your text for close button
+      closeByEscape: true, // enables closing popup by 'Esc'..
+      closeByDocument: false, // ..and by clicking document itself
+      holderClass: 'avgrund', // lets you name custom class for popin holder..
+      // overlayClass: '', // ..and overlay block
+      onBlurContainer: 'body', // enables blur filter for specified block
+      openOnEvent: true, // set to 'false' to init on load
+      setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/simplefa3.jpg" class="img-responsive img-centered" alt="Simple Financial Associates">' +
+      '<h1>Simple Financial Associates</h1>' +
+      '<p>A responsive elegant landing page built in HTML5/CSS3 with Javascript animated smooth scrolling, created to serve as a placeholder for a future website for the company.</p>' +
+      '<p>As a one page website, several modals are shown when necessary in order to present all the relevant information for their visitors.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong><a href="http://www.simplefa.co.uk" target="_blank">Simple Financial Associates</a>' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>August 2014</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>Digital Design, UI Development</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
+      '</div>'
+    });
+$('.fifth').avgrund({
+      width: 640, // max is 640px
+      height: 350, // max is 350px
+      showClose: true, // switch to 'true' for enabling close button
+      showCloseText: 'x', // type your text for close button
+      closeByEscape: true, // enables closing popup by 'Esc'..
+      closeByDocument: false, // ..and by clicking document itself
+      holderClass: 'avgrund', // lets you name custom class for popin holder..
+      // overlayClass: '', // ..and overlay block
+      onBlurContainer: 'body', // enables blur filter for specified block
+      openOnEvent: true, // set to 'false' to init on load
+      setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/fitincompany.jpg" class="img-responsive img-centered" alt="Fit in Company">' +
+      '<h1>Fit in Company</h1>' +
+      '<p>The website in HTML5/CSS3 features javascript animated banners and a dynamic content blog area managed through a safe content management system. All of this is fully optimised for usability both on desktops and mobile platforms.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong><a href="http://www.fitincompany.com.br" target="_blank">Fit in Company</a>' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>September 2013</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>UI Development</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
+      '</div>'
+    });
+$('.sixth').avgrund({
+      width: 640, // max is 640px
+      height: 350, // max is 350px
+      showClose: true, // switch to 'true' for enabling close button
+      showCloseText: 'x', // type your text for close button
+      closeByEscape: true, // enables closing popup by 'Esc'..
+      closeByDocument: false, // ..and by clicking document itself
+      holderClass: 'avgrund', // lets you name custom class for popin holder..
+      // overlayClass: '', // ..and overlay block
+      onBlurContainer: 'body', // enables blur filter for specified block
+      openOnEvent: true, // set to 'false' to init on load
+      setEvent: 'click', // use your event like 'mouseover', 'touchmove', etc.
+      template: '<div class="container">' +
+      '<div class="row">' +
+      '<div class="col-lg-8 col-lg-offset-2">' +
+      '<div class="portfolio-detail">' +
+      '<img src="img/portfolio/plastamp.jpg" class="img-responsive img-centered" alt="Plastamp">' +
+      '<h1>Plastamp &mdash; Plastic Containers</h1>' +
+      '<p>The website in HTML5/CSS3, also has javascript animations and dynamic content for the company&rsquo;s latest updates. All of this is fully optimised for usability both on desktops and mobile platforms.</p>' +
+      '<ul class="list-inline item-details">' +
+      '<li>Client:&nbsp;' +
+      '<strong><a href="http://www.plastamp.com.br" target="_blank">Plastamp</a>' +
+      '</strong>' +
+      '</li>' +
+      '<li>Date:&nbsp;' +
+      '<strong>June 2013</strong>' +
+      '</li>' +
+      '<li>Roles:&nbsp;' +
+      '<strong>UI Development, Photography</strong>' +
+      '</li>' +
+      '</ul>' +
+      '</div>' +
+      '</div>' +
+      '</div>' +
+      // '<a href="#portfolio" class="left control first">' +
+      // '<i class="fa fa-chevron-left"></i>' +
+      // '</a>' +
+      // '<a href="#portfolio" class="right control first">' +
+      // '<i class="fa fa-chevron-right"></i>' +
+      // '</a>' +
+      '</div>'
+    });
+});

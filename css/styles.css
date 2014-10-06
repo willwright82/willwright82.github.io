@@ -255,6 +255,7 @@ Portfolio
 .effects .img:first-child { margin-left: -15px; }
 .effects .img:last-child { margin-right: 0; }
 .effects .img img { display: block; margin: 0; padding: 0; height: auto; }
+.portfolio-detail h1 { text-align: center; text-transform: uppercase; color: #00AEF5;}
 .overlay { display: block; position: absolute; z-index: 20; background: rgba(1, 174, 245, 0.7); overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
 a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #fff; line-height: 45px; text-align: center; background-color: #000; cursor: pointer; }
 a.close-overlay.hidden { display: none; }
@@ -266,6 +267,11 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 .img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
+.avgrund { background: rgba(249, 249, 249, 0.9); margin-left: auto !important; margin-right: auto !important; padding: 0px 50px; position: fixed; width: 100% !important; height: 100% !important; z-index: 1050; top: 0px; margin-top: 0px !important; overflow: scroll; }
+.avgrund-close { font-size: 2em; position: fixed; right: 20px; top: 10px; overflow: hidden; border: none; color: #353535; outline: none; z-index: 1060; font-family: 'Syncopate', 'Source Code Pro', "Helvetica Neue", sans-serif; }
+.avgrund-active .avgrund-blur { -webkit-filter: blur(10px); -moz-filter: blur(10px); -ms-filter: blur(10px); -o-filter: blur(10px); filter: blur(10px); }
+body.avgrund-active { overflow: hidden; }
+.tech { color: #00AEF5; }
 /* ==========================================================================
 Contact
 ========================================================================== */
@@ -332,43 +338,3 @@ Waypoints
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
 .wp3 { background: url('../img/iphone-bg.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
-/* ==========================================================================
-Avgrund
-========================================================================== */
-.avgrund {
-  background: rgba(255, 255, 255, 0.9);
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding: 0px 50px;
-  position: fixed;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: 1050;
-  top: 0px;
-  margin-top: 0px !important;
-  overflow: hidden;
-}
-
-.avgrund-close {
-font-size: 2em;
-position: absolute;
-right: 20px;
-top: 20px;
-overflow: hidden;
-border: none;
-/*background: url(../img/cross.png) no-repeat center center;*/
-/*text-indent: 200%;*/
-color: #353535;
-outline: none;
-z-index: 1060;
-font-family: 'Source Code Pro', "Helvetica Neue", sans-serif;
-/*text-shadow: 0 1px 10px 0 rgba(0, 0, 0, .5);*/
-}
-
-.avgrund-active .avgrund-blur {
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -ms-filter: blur(10px);
-  -o-filter: blur(10px);
-  filter: blur(10px);
-}
