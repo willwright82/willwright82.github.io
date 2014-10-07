@@ -206,8 +206,7 @@ $(function() {
       '<div class="portfolio-detail">' +
       '<img src="img/portfolio/liq3.jpg" class="img-responsive img-centered" alt="">' +
       '<h1>Life Insurance Quotes UK</h1>' +
-      '<p>Lorem ipsum dolor sit amet.</p>' +
-      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<p>A responsive website in HTML5/CSS3 and jQuery animation, which features a PHP/Javascript enabled Web App, allowing the visitor to easily compare quotes from all the major UK life insurance providers.</p>' +
       '<ul class="list-inline item-details">' +
       '<li>Client:&nbsp;' +
       '<strong>Life Insurance Quotes' +
