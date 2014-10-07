@@ -163,8 +163,7 @@ $(function() {
       '<div class="portfolio-detail">' +
       '<img src="img/portfolio/simplefp3.jpg" class="img-responsive img-centered" alt="Simple Financial Planning">' +
       '<h1>Simple Financial Planning</h1>' +
-      '<p>Lorem ipsum dolor sit amet.</p>' +
-      '<p>Lorem ipsum dolor sit amet.</p>' +
+      '<p>This responsive website, built in HTML5/CSS3 and featuring jQuery animation, provides the visitors with a clean interface with easily accessible content.</p>' +
       '<ul class="list-inline item-details">' +
       '<li>Client:&nbsp;' +
       '<strong><a href="http://www.simplefp.co.uk" target="_blank">Simple Financial</a>' +
