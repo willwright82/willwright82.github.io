@@ -161,19 +161,33 @@ $(function() {
       '<div class="row">' +
       '<div class="col-lg-8 col-lg-offset-2">' +
       '<div class="portfolio-detail">' +
-      '<img src="img/portfolio/simplefp3.jpg" class="img-responsive img-centered" alt="Simple Financial Planning">' +
-      '<h1>Simple Financial Planning</h1>' +
-      '<p>This responsive website, built in HTML5/CSS3 and featuring jQuery animation, provides the visitors with a clean interface with easily accessible content.</p>' +
+      // '<img src="img/portfolio/simplefp3.jpg" class="img-responsive img-centered" alt="Simple Financial Planning">' +
+      // '<h1>Simple Financial Planning</h1>' +
+      // '<p>This responsive website, built in HTML5/CSS3 and featuring jQuery animation, provides the visitors with a clean interface with easily accessible content.</p>' +
+      // '<ul class="list-inline item-details">' +
+      // '<li>Client:&nbsp;' +
+      // '<strong><a href="http://www.simplefp.co.uk" target="_blank">Simple Financial</a>' +
+      // '</strong>' +
+      // '</li>' +
+      // '<li>Date:&nbsp;' +
+      // '<strong>October 2014</strong>' +
+      // '</li>' +
+      // '<li>Roles:&nbsp;' +
+      // '<strong>Digital Design, UI Development</strong>' +
+      // '</li>' +
+      '<img src="img/portfolio/flavourly3.jpg" class="img-responsive img-centered" alt="Flavourly.com">' +
+      '<h1>Flavourly.com</h1>' +
+      '<p>A mobile-first HTML5/SASS website and in-house eCommerce “Marketplace”, built with scalability, usability and a quality user experience as a main focus.</p>' +
       '<ul class="list-inline item-details">' +
       '<li>Client:&nbsp;' +
-      '<strong><a href="http://www.simplefp.co.uk" target="_blank">Simple Financial</a>' +
+      '<strong><a href="http://www.flavourly.com" target="_blank">Flavourly.com</a>' +
       '</strong>' +
       '</li>' +
       '<li>Date:&nbsp;' +
-      '<strong>October 2014</strong>' +
+      '<strong>December 2014</strong>' +
       '</li>' +
       '<li>Roles:&nbsp;' +
-      '<strong>Digital Design, UI Development</strong>' +
+      '<strong>Digital Design, UI Development, Photography</strong>' +
       '</li>' +
       '</ul>' +
       '</div>' +
