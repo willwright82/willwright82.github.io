@@ -12,8 +12,8 @@ description:      'A brazen two-column <a href="http://jekyllrb.com" target="_bl
 url:              http://hyde.getpoole.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Will Wright'
+  url:            https://twitter.com/WilliamWright
 
 paginate:         5
 
@@ -21,4 +21,4 @@ paginate:         5
 version:          2.0.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://pixel.wright.is/new/
