@@ -548,6 +548,25 @@ a.pagination-item:hover {
  * Misc
  */
 
-.code {
+code, pre, .code {
   font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
+}
+.copyright {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.social-buttons {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.social-buttons li {
+  display: inline-block;
+}
+.social-buttons li a:hover {
+  opacity: 0.5;
+}
+.text-center {
+  text-align: center;
 }
