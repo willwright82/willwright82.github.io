@@ -1,0 +1,26 @@
+# Dependencies
+markdown:            redcarpet
+highlighter:         pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               pixelwright
+tagline:             'UI Development & Design'
+description:         '<strong>pixel</strong> <em>noun</em> <strong>1</strong> A minute area of illumination on a display screen.<br><strong>wright</strong> <em>noun</em> (obsolete) <strong>1</strong> A builder or creator of something.'
+url:                 http://pixel.wright.is
+baseurl:             /
+paginate:            5
+
+# About/contact
+author:
+  name:              Will Wright
+  url:               https://twitter.com/WilliamWright
+  email:             will@wright.is
+
+# Custom vars
+version:             1.0.0
