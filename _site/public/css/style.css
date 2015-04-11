@@ -90,12 +90,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .masthead-title a {
   color: #505050;
+  font-weight: 400;
 }
 .masthead-title small {
   font-size: 75%;
-  font-weight: 400;
+  font-weight: 300;
   color: #c0c0c0;
   letter-spacing: 0;
+  text-transform: lowercase;
 }
 
 @media (max-width: 48em) {
@@ -135,7 +137,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
-  background-color: #202020;
+  /*background-color: #202020;*/
+  background-color: #2A2F3C;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
@@ -149,6 +152,10 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar a {
   font-weight: normal;
   color: #fff;
+}
+.sidebar strong {
+  color: #fff;
+  font-weight: bolder;
 }
 .sidebar-item {
   padding: 1rem;
@@ -219,7 +226,8 @@ a.sidebar-nav-item:focus {
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
-  background-color: #505050;
+  /*background-color: #505050;*/
+  background-color: #3F495A;
 }
 
 @media (min-width: 30.1em) {
@@ -534,4 +542,12 @@ a.pagination-item:hover {
 /* Only one tweak for a reverse layout */
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
+}
+
+/*
+ * Misc
+ */
+
+.code {
+  font-family: "Source Code Pro", Menlo, Monaco, "Courier New", monospace;
 }
