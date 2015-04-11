@@ -15,7 +15,6 @@ description:         '<strong>pixel</strong> <em>noun</em> <strong>1</strong> A 
 url:                 http://pixel.wright.is
 baseurl:             /
 paginate:            5
-destination:         _site/blog
 
 # About/contact
 author:
