@@ -14,13 +14,18 @@ tagline:             'UI Development & Design'
 description:         '<strong>pixel</strong> <em>noun</em> <strong>1</strong> A minute area of illumination on a display screen.<br><strong>wright</strong> <em>noun</em> (obsolete) <strong>1</strong> A builder or creator of something.'
 url:                 http://pixel.wright.is
 baseurl:             /
+blogurl:             /blog/
+bloghome:            /blog/index.html
 paginate:            5
+paginate_path:       "/blog/page:num"
 
 # About/contact
 author:
   name:              Will Wright
   url:               https://twitter.com/WilliamWright
   email:             will@wright.is
+github:
+  repo:              https://github.com/willwright82/willwright82.github.io
 
 # Custom vars
 version:             1.0.0
