@@ -561,10 +561,20 @@ code, pre, .code {
   bottom: 0px;
   width: 100%;
 }
+hr {
+  width: 100px;
+  height: 1px;
+  margin: 2rem auto;
+  background-color: #eee;
+  border: 0;
+}
 .img-responsive {
   max-width: 100%;
   height: auto;
   display: block;
+}
+.lead {
+  font-size: 1.25rem;
 }
 .social-buttons {
   list-style: none;
