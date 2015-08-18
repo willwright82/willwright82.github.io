@@ -9,7 +9,7 @@ title: About
 
 <p class="lead">Currently UI Developer &amp; Designer at <a href="//flavourly.com" target="_blank">Flavourly</a>. Previously at Kork Wines. Husband. Dad.</p>
 
-Will Wright is an Edinburgh based Front End UI Developer & Digital Designer, with a background in marketing, advertising and graphic design. With over 12 years of experience, he has acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability. His core competences include:
+Will Wright is an Edinburgh based Front End UI Developer & Digital Designer, with a background in marketing, advertising and graphic design. With over 14 years of experience, he has acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability. His core competences include:
 
 <p class="message text-center">Digital &amp; Graphic Design &bull; Front End UI Development in HTML5, CSS3 &amp; SASS, JavaScript &amp; jQuery &bull; AngularJS &bull; Meteor &bull; Git &bull; Art &amp; Creative Direction &bull; Responsive Web Design &bull; e-Commerce &bull; Google Analytics Certified &bull; Email Marketing &bull; Display &amp; SEM/PPC (Google Adwords) campaigns &bull; Project &amp; Product Management</p>
 

@@ -14,10 +14,10 @@ tagline:             'UI Development & Design'
 description:         '<strong>pixel</strong> <em>noun</em> <strong>1</strong> A minute area of illumination on a display screen.<br><strong>wright</strong> <em>noun</em> (obsolete) <strong>1</strong> A builder or creator of something.'
 url:                 http://pixel.wright.is
 baseurl:             /
-blogurl:             /blog/
-bloghome:            /blog/index.html
+blogurl:             /journal/
+bloghome:            /journal/index.html
 paginate:            5
-paginate_path:       "/blog/page:num"
+paginate_path:       "/journal/page:num"
 
 # About/contact
 author:
