@@ -8,10 +8,11 @@ As you may have seen in my [about]({{ site.baseurl }}about/) page, I'm a fan of 
 
 Usually this would be done in Dev Tools' console, but you can also create a simple Node.js build system and get results without having to leave Sublime.
 
+Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.
+
 ### Let's get ready
 
-1. **You will need to have Node installed, if you don't simply head over to their website and run it using the default settings.**
-Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.
+1. You will need to have Node installed, if you don't simply head over to [their website](http://nodejs.org) and run it using the default settings.
 2. Go to "Tools ➜ Build System ➜ New Build System" in the menu bar.
 Creatingnodebuilder.png3
 Paste this replacing everything in the new tab that has opened: 
