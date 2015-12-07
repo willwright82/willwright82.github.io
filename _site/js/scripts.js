@@ -109,6 +109,7 @@ $(window).load(function() {
 
 	$('#portfolioSlider').flexslider({
 		animation: "slide",
+            slideshow: false,
 		directionNav: false,
 		controlNav: true,
 		touch: false,
@@ -120,6 +121,7 @@ $(window).load(function() {
 
 	$('#servicesSlider').flexslider({
 		animation: "slide",
+            slideshow: false,
 		directionNav: false,
 		controlNav: true,
 		touch: true,
