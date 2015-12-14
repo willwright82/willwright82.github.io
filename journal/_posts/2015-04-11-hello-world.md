@@ -7,7 +7,7 @@ category: Thoughts
 
 This is my first post on this new online journal. I'm not sure yet what all this will be about, so I'll just let it take it's own direction.
 
-I've always wrote on paper journals in the past, but I've been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That's why I've decided to give this a try.
+I've always written on paper journals in the past, but I've been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That's why I've decided to give this a try.
 
 ## What you'll find here
 
