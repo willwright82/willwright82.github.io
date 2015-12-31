@@ -31,8 +31,6 @@
     {
       "company": "Flavourly.com",
       "position": "UI Developer & Designer",
-      // "website": "http://flavourly.com",
-      "website": "",
       "startDate": "2014-10-01",
       "endDate": "Current",
       "summary": "As recently featured on the BBC's Dragons Den where we received 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from the nations best independent suppliers via our subscription sampling service. Each month we to match our customers to the most mouth-watering products and deliver them direct to their desk or door! Our online marketplace then makes it super easy to order more of your new favourite products!",
@@ -44,8 +42,6 @@
     {
       "company": "Simple Financial",
       "position": "Web Development Contract",
-      // "website": "http://www.simplefs.co.uk",
-      "website": "",
       "startDate": "2014-07-01",
       "endDate": "2014-09-30",
       "summary": "Simple Financial is a Glasgow based group of 4 companies offering bespoke financial services and guidance to the public.",
@@ -57,8 +53,6 @@
     {
       "company": "Kork Wines",
       "position": "Co-founder",
-      // "website": "http://www.kork.com.br",
-      "website": "",
       "startDate": "2012-04-02",
       "endDate": "2014-06-30",
       "summary": "Kork Wines was an online retailer of carefully curated wines from small and passionate producers from around the world.",
@@ -73,8 +67,6 @@
     {
       "company": "Nautillus Design & Strategy",
       "position": "Digital Creative Director",
-      // "website": "http://nautillus.biz",
-      "website": "",
       "startDate": "2012-02-03",
       "endDate": "2014-02-28",
       "summary": "Nautillus is a full-service advertising and design agency with a focus on delivering innovative and strategic solutions through an extensive cooperative network of professionals with diverse specialities, allocated on a per project basis.",
@@ -87,8 +79,6 @@
     {
       "company": "Wrightdesign",
       "position": "Front End Developer & Designer",
-      // "website": "http://design.wright.is",
-      "website": "",
       "startDate": "2009-12-15",
       "endDate": "2012-01-31",
       "summary": "Freelancer in the fields of graphic & digital design and development including websites, print and digital advertising (display and SEM/PPC), branding, brochures, CMS, HTML email newsletters, web analytics reports and more.",
@@ -100,8 +90,6 @@
     {
       "company": "Extra.com",
       "position": "Digital Creative Director",
-      // "website": "http://www.agenciaextra.com.br",
-      "website": "",
       "startDate": "2008-02-04",
       "endDate": "2009-12-19",
       "summary": "Extra.com is an advertising agency offering an attentive integrated service to local businesses.",
@@ -113,8 +101,6 @@
     {
       "company": "Apple UK",
       "position": "Mac Specialist / Creative",
-      // "website": "http://www.apple.com/uk",
-      "website": "",
       "startDate": "2007-03-01",
       "endDate": "2007-12-21",
       "summary": "European Operation Centre in London of the American multinational corporation headquartered in California, that designs, develops, and sells consumer electronics, computer software and personal computers.",
@@ -126,8 +112,6 @@
     {
       "company": "WG Communication",
       "position": "Art Director",
-      // "website": "http://www.wg.com.br",
-      "website": "",
       "startDate": "2004-12-01",
       "endDate": "2007-01-15",
       "summary": "A medium-sized advertising agency with high-profile clients, in the areas of trading, food and beverages, and publishing.",
@@ -138,8 +122,6 @@
     {
       "company": "W/Brasil (now W/McCann)",
       "position": "Art Direction Intern",
-      // "website": "http://www.wbrasil.com.br",
-      "website": "",
       "startDate": "2003-06-01",
       "endDate": "2004-12-31",
       "summary": "One of the world's most creative advertising agencies, awarded over 30 Golden Awards at Cannes and other events.",
@@ -150,8 +132,6 @@
     {
       "company": "DF Systems (IBM)",
       "position": "Software Development Intern",
-      // "website": "http://www.dfsistemas.com.br",
-      "website": "",
       "startDate": "2001-08-01",
       "endDate": "2002-11-31",
       "summary": "IBM in-house systems development for distance learning platforms.",
@@ -160,31 +140,26 @@
       ]
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "CoderDojo",
-  //     "position": "Teacher",
-  //     "website": "http://coderdojo.com/",
-  //     "startDate": "2012-01-01",
-  //     "endDate": "2013-01-01",
-  //     "summary": "Global movement of free coding clubs for young people.",
-  //     "highlights": [
-  //       "Awarded 'Teacher of the Month'"
-  //     ]
-  //   }
-  // ],
+  "volunteer": [
+    {
+      "organization": "CoderDojo",
+      "position": "Teacher",
+      "website": "http://coderdojo.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Awarded 'Teacher of the Month'"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "FIA Business School",
-      // "area": "",
       "studyType": "International MBA",
       "startDate": "2009-02-01",
       "endDate": "2010-12-31",
-      "gpa": "4.0",
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      //   "CS2011 - Java Introduction"
-      // ]
+      "gpa": "4.0"
     },
     {
       "institution": "University Of The Arts London - Central Saint Martin's School of Art and Design",
@@ -192,10 +167,7 @@
       "studyType": "Postgraduate",
       "startDate": "2005-06-01",
       "endDate": "2005-08-01",
-      "gpa": "4.0",
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      // ]
+      "gpa": "4.0"
     },
     {
       "institution": "Mackenzie University",
@@ -203,10 +175,7 @@
       "studyType": "Bachelor of Arts in Advertising and Marketing",
       "startDate": "2003-06-05",
       "endDate": "2006-12-15",
-      "gpa": "4.0",
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      // ]
+      "gpa": "4.0"
     },
     {
       "institution": "Mackenzie University",
@@ -215,9 +184,6 @@
       "startDate": "2000-01-05",
       "endDate": "2003-12-15",
       "gpa": ""
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      // ]
     },
     {
       "institution": "Miguel de Cervantes (Spanish)",
@@ -226,9 +192,6 @@
       "startDate": "1994-07-05",
       "endDate": "1999-12-20",
       "gpa": ""
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      // ]
     },
     {
       "institution": "St. Paul's School (British)",
@@ -237,19 +200,16 @@
       "startDate": "1985-01-15",
       "endDate": "1994-05-31",
       "gpa": ""
-      // "courses": [
-      //   "DB1101 - Basic SQL",
-      // ]
     }
   ],
-  // "awards": [
-  //   {
-  //     "title": "Digital Compression Pioneer Award",
-  //     "date": "2014-11-01",
-  //     "awarder": "Techcrunch",
-  //     "summary": "There is no spoon."
-  //   }
-  // ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
   "publications": [
     {
       "name": "Portraits of India: the scenes, the people, the beauty",
@@ -330,15 +290,15 @@
       "fluency": "Fluent (Bachiller Diploma)"
     }
   ],
-  // "interests": [
-  //   {
-  //     "name": "Wildlife",
-  //     "keywords": [
-  //       "Ferrets",
-  //       "Unicorns"
-  //     ]
-  //   }
-  // ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "",
+        ""
+      ]
+    }
+  ],
   "references": [
     {
       "name": "Pedro Menezes, Senior Creative Director at Quaderno",
@@ -355,6 +315,6 @@
     {
       "name": "Arthur Wong, Marketing Manager, PR and Club Management at Ducati Motor Holding",
       "reference": "Will brings together two very interesting traits based on his multicultural upbringing. His keen and trendy creativity shows his Brazilian DNA with a much-focused mindset on objectives. On his heritage, his British organisation counterparts in a very positive manner usually unseen in his line of work. By aggregating these traits makes him a differentiated professional that focuses in the established objectives."
-    },
+    }
   ]
 }
