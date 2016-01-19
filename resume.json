@@ -32,7 +32,6 @@
       "company": "Flavourly.com",
       "position": "UI Developer & Designer",
       "startDate": "2014-10-01",
-      "endDate": "Current",
       "summary": "As recently featured on the BBC's Dragons Den where we received 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from the nations best independent suppliers via our subscription sampling service. Each month we to match our customers to the most mouth-watering products and deliver them direct to their desk or door! Our online marketplace then makes it super easy to order more of your new favourite products!",
       "highlights": [
         "Redesign and responsive development (HTML, CSS, Javascript, jQuery & Django) of the company's new mobile-first website and eCommerce BrewStore, all of this with usability and a quality user experience as a main focus.",
@@ -140,19 +139,6 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
       "institution": "FIA Business School",
@@ -200,14 +186,6 @@
       "startDate": "1985-01-15",
       "endDate": "1994-05-31",
       "gpa": ""
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "summary": ""
     }
   ],
   "publications": [
