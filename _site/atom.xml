@@ -4,7 +4,7 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2015-08-18T23:59:25+01:00</updated>
+ <updated>2016-01-26T17:21:24+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
@@ -13,13 +13,51 @@
 
  
  <entry>
+   <title>Javascript build using node.js</title>
+   <link href="http://pixel.wright.is/journal/2015/04/25/nodejs-sublimetext-build/"/>
+   <updated>2015-04-25T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/journal/2015/04/25/nodejs-sublimetext-build</id>
+   <content type="html">&lt;p&gt;As you may have seen in my &lt;a href=&quot;/about/&quot;&gt;about&lt;/a&gt; page, I&amp;#39;m a fan of &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;SublimeText&lt;/a&gt; and when using Javascript, it&amp;#39;s handy to have a test console.&lt;/p&gt;
+
+&lt;p&gt;Usually this would be done in Dev Tools&amp;#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.&lt;/p&gt;
+
+&lt;p&gt;Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.&lt;/p&gt;
+
+&lt;h3&gt;Let&amp;#39;s get ready&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;You will need to have Node installed, if you don&amp;#39;t simply head over to &lt;a href=&quot;http://nodejs.org&quot;&gt;their website&lt;/a&gt; and run it using the default settings.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Go to &amp;quot;Tools ➜ Build System ➜ New Build System&amp;quot; in the menu bar.
+Paste this replacing everything in the new tab that has opened:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;{
+&amp;quot;cmd&amp;quot;: [&amp;quot;node&amp;quot;, &amp;quot;$file&amp;quot;],
+&amp;quot;selector&amp;quot;: &amp;quot;source.js&amp;quot;
+}&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Save this file as &amp;quot;node.sublime-build&amp;quot; in the default &amp;quot;user&amp;quot; folder. Your build system is ready!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3&gt;Usage&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open a Javascript file you would like to run in Sublime.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Go to &amp;quot;Tools ➜ Build System&amp;quot; in the menu bar and select &amp;quot;node&amp;quot;, the build system that you&amp;#39;ve just created.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Go to &amp;quot;Tools ➜ Build&amp;quot; in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Hi There!</title>
    <link href="http://pixel.wright.is/journal/thoughts/2015/04/11/hello-world/"/>
    <updated>2015-04-11T00:00:00+01:00</updated>
    <id>http://pixel.wright.is/journal/thoughts/2015/04/11/hello-world</id>
    <content type="html">&lt;p&gt;This is my first post on this new online journal. I&amp;#39;m not sure yet what all this will be about, so I&amp;#39;ll just let it take it&amp;#39;s own direction.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#39;ve always wrote on paper journals in the past, but I&amp;#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&amp;#39;s why I&amp;#39;ve decided to give this a try.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve always written on paper journals in the past, but I&amp;#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&amp;#39;s why I&amp;#39;ve decided to give this a try.&lt;/p&gt;
 
 &lt;h2&gt;What you&amp;#39;ll find here&lt;/h2&gt;
 

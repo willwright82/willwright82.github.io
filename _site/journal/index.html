@@ -92,7 +92,7 @@
       </ul>
     </p>
     <p class="text-center">
-      &copy; 2015 &mdash; <a href="https://twitter.com/WilliamWright">Will Wright</a><br>
+      &copy; 2016 &mdash; <a href="https://twitter.com/WilliamWright">Will Wright</a><br>
       Hosted on <a href="https://github.com/willwright82/willwright82.github.io" target="_blank">Github Pages</a>
     </p>
   </div>
@@ -117,6 +117,49 @@
   
   <div class="post">
     <h1 class="post-title">
+      <a href="/journal/2015/04/25/nodejs-sublimetext-build/">
+        Javascript build using node.js
+      </a>
+    </h1>
+
+    <span class="post-date">25 Apr 2015</span>
+
+    <p>As you may have seen in my <a href="/about/">about</a> page, I&#39;m a fan of <a href="http://www.sublimetext.com/3">SublimeText</a> and when using Javascript, it&#39;s handy to have a test console.</p>
+
+<p>Usually this would be done in Dev Tools&#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.</p>
+
+<p>Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.</p>
+
+<h3>Let&#39;s get ready</h3>
+
+<ol>
+<li><p>You will need to have Node installed, if you don&#39;t simply head over to <a href="http://nodejs.org">their website</a> and run it using the default settings.</p></li>
+<li><p>Go to &quot;Tools ➜ Build System ➜ New Build System&quot; in the menu bar.
+Paste this replacing everything in the new tab that has opened:</p></li>
+</ol>
+
+<p><code>{
+&quot;cmd&quot;: [&quot;node&quot;, &quot;$file&quot;],
+&quot;selector&quot;: &quot;source.js&quot;
+}</code></p>
+
+<ol>
+<li>Save this file as &quot;node.sublime-build&quot; in the default &quot;user&quot; folder. Your build system is ready!</li>
+</ol>
+
+<h3>Usage</h3>
+
+<ol>
+<li><p>Open a Javascript file you would like to run in Sublime.</p></li>
+<li><p>Go to &quot;Tools ➜ Build System&quot; in the menu bar and select &quot;node&quot;, the build system that you&#39;ve just created.</p></li>
+<li><p>Go to &quot;Tools ➜ Build&quot; in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!</p></li>
+</ol>
+
+  </div>
+  <hr class="medium">
+  
+  <div class="post">
+    <h1 class="post-title">
       <a href="/journal/thoughts/2015/04/11/hello-world/">
         Hi There!
       </a>
@@ -126,7 +169,7 @@
 
     <p>This is my first post on this new online journal. I&#39;m not sure yet what all this will be about, so I&#39;ll just let it take it&#39;s own direction.</p>
 
-<p>I&#39;ve always wrote on paper journals in the past, but I&#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&#39;s why I&#39;ve decided to give this a try.</p>
+<p>I&#39;ve always written on paper journals in the past, but I&#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&#39;s why I&#39;ve decided to give this a try.</p>
 
 <h2>What you&#39;ll find here</h2>
 
@@ -144,6 +187,7 @@
 <p>I hope you enjoy!</p>
 
   </div>
+  <hr class="medium">
   
 </div>
 
