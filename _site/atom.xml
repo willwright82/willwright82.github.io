@@ -4,7 +4,7 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2016-01-26T17:21:24+00:00</updated>
+ <updated>2016-01-28T00:00:01+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
@@ -13,10 +13,55 @@
 
  
  <entry>
+   <title>Flavourly.com</title>
+   <link href="http://pixel.wright.is/journal/projects/2016/01/27/flavourly/"/>
+   <updated>2016-01-27T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/journal/projects/2016/01/27/flavourly</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Flavourly.com&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A mobile-first HTML5/SASS website and in-house eCommerce &amp;quot;BrewStore&amp;quot;, built with scalability, usability and a quality user experience as a main focus.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;a href=&quot;http://www.flavourly.com&quot;&gt;&lt;strong&gt;Flavourly.com&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;Django, HTML, SASS, Javascript, Python, PostgreSQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Django maths using widthratio</title>
+   <link href="http://pixel.wright.is/journal/code/2015/06/27/django-widthratio-maths/"/>
+   <updated>2015-06-27T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/journal/code/2015/06/27/django-widthratio-maths</id>
+   <content type="html">&lt;p&gt;I use a lot of Django templating and one of my pet peeves is it&amp;#39;s inability to handle simple maths. Seriously, why?&lt;/p&gt;
+
+&lt;p&gt;Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can &lt;code&gt;add&lt;/code&gt;, but that&amp;#39;s about it.&lt;/p&gt;
+
+&lt;p&gt;Now, if you&amp;#39;re only using integers, you can be quite creative with &lt;code&gt;widthratio&lt;/code&gt; to solve many math expressions:&lt;/p&gt;
+
+&lt;h3&gt;Code&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3&gt;Caveats&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The code above has an extra space between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;%&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; to avoid my Jekyll trying to parse it&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Remember &lt;code&gt;widthratio&lt;/code&gt; rounds everything to integers. So, if you need precise results you should really look elsewhere.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Javascript build using node.js</title>
-   <link href="http://pixel.wright.is/journal/2015/04/25/nodejs-sublimetext-build/"/>
+   <link href="http://pixel.wright.is/journal/code/2015/04/25/nodejs-sublimetext-build/"/>
    <updated>2015-04-25T00:00:00+01:00</updated>
-   <id>http://pixel.wright.is/journal/2015/04/25/nodejs-sublimetext-build</id>
+   <id>http://pixel.wright.is/journal/code/2015/04/25/nodejs-sublimetext-build</id>
    <content type="html">&lt;p&gt;As you may have seen in my &lt;a href=&quot;/about/&quot;&gt;about&lt;/a&gt; page, I&amp;#39;m a fan of &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;SublimeText&lt;/a&gt; and when using Javascript, it&amp;#39;s handy to have a test console.&lt;/p&gt;
 
 &lt;p&gt;Usually this would be done in Dev Tools&amp;#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.&lt;/p&gt;
