@@ -4,7 +4,7 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2016-01-28T09:50:27+00:00</updated>
+ <updated>2016-01-28T22:12:49+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Django maths using widthratio</title>
-   <link href="http://pixel.wright.is/journal/code/2015/06/27/django-widthratio-maths/"/>
+   <link href="http://pixel.wright.is/code/2015/06/27/django-widthratio-maths/"/>
    <updated>2015-06-27T00:00:00+01:00</updated>
-   <id>http://pixel.wright.is/journal/code/2015/06/27/django-widthratio-maths</id>
+   <id>http://pixel.wright.is/code/2015/06/27/django-widthratio-maths</id>
    <content type="html">&lt;p&gt;I use a lot of Django templating and one of my pet peeves is it&amp;#39;s inability to handle simple maths. Seriously, why?&lt;/p&gt;
 
 &lt;p&gt;Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can &lt;code&gt;add&lt;/code&gt;, but that&amp;#39;s about it.&lt;/p&gt;
@@ -42,9 +42,9 @@
  
  <entry>
    <title>Javascript build using node.js</title>
-   <link href="http://pixel.wright.is/journal/code/2015/04/25/nodejs-sublimetext-build/"/>
+   <link href="http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build/"/>
    <updated>2015-04-25T00:00:00+01:00</updated>
-   <id>http://pixel.wright.is/journal/code/2015/04/25/nodejs-sublimetext-build</id>
+   <id>http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build</id>
    <content type="html">&lt;p&gt;As you may have seen in my &lt;a href=&quot;/about/&quot;&gt;about&lt;/a&gt; page, I&amp;#39;m a fan of &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;SublimeText&lt;/a&gt; and when using Javascript, it&amp;#39;s handy to have a test console.&lt;/p&gt;
 
 &lt;p&gt;Usually this would be done in Dev Tools&amp;#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.&lt;/p&gt;
@@ -80,9 +80,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;&lt;/li
  
  <entry>
    <title>Hi There!</title>
-   <link href="http://pixel.wright.is/journal/thoughts/2015/04/11/hello-world/"/>
+   <link href="http://pixel.wright.is/thoughts/2015/04/11/hello-world/"/>
    <updated>2015-04-11T00:00:00+01:00</updated>
-   <id>http://pixel.wright.is/journal/thoughts/2015/04/11/hello-world</id>
+   <id>http://pixel.wright.is/thoughts/2015/04/11/hello-world</id>
    <content type="html">&lt;p&gt;This is my first post on this new online journal. I&amp;#39;m not sure yet what all this will be about, so I&amp;#39;ll just let it take it&amp;#39;s own direction.&lt;/p&gt;
 
 &lt;p&gt;I&amp;#39;ve always written on paper journals in the past, but I&amp;#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&amp;#39;s why I&amp;#39;ve decided to give this a try.&lt;/p&gt;
@@ -106,10 +106,12 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;&lt;/li
  
  <entry>
    <title>Flavourly.com</title>
-   <link href="http://pixel.wright.is/journal/projects/2014/12/15/flavourly/"/>
+   <link href="http://pixel.wright.is/projects/2014/12/15/flavourly/"/>
    <updated>2014-12-15T00:00:00+00:00</updated>
-   <id>http://pixel.wright.is/journal/projects/2014/12/15/flavourly</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Flavourly.com&quot;&gt;&lt;/p&gt;
+   <id>http://pixel.wright.is/projects/2014/12/15/flavourly</id>
+   <content type="html">&lt;p&gt;Flavourly is a food &amp;amp; craft beer discovery service which helps consumers discover amazing products monthly from small independent suppliers, while providing a viable sales channel for suppliers to both grow their business and launch new products.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/flavourly3.jpg&quot; alt=&quot;Flavourly.com&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;A mobile-first HTML5/SASS website and in-house eCommerce &amp;quot;BrewStore&amp;quot;, built with scalability, usability and a quality user experience as a main focus.&lt;/p&gt;
 
@@ -117,6 +119,105 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;&lt;/li
 &lt;li&gt;Client: &lt;a href=&quot;http://www.flavourly.com&quot;&gt;&lt;strong&gt;Flavourly.com&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Stack: &lt;strong&gt;Django, HTML, SASS, Javascript, Python, PostgreSQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Life Insurance Quotes UK</title>
+   <link href="http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes/"/>
+   <updated>2014-08-28T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes</id>
+   <content type="html">&lt;p&gt;A website dedicated to finding the best life insurance deals on the market. Life Insurance Quotes UK compares Life Insurance, Mortgage Life Insurance, Family Income Benefit, Critical Illness Cover and Whole of Life protection policies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/liq3.jpg&quot; alt=&quot;Life Insurance Quotes UK&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A responsive website, which features a PHP/Javascript enabled Web App, allowing the visitor to easily compare quotes from all the major UK life insurance providers.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;strong&gt;Life Insurance Quotes UK&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, AngularJS, PHP&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Simple Financial Associates</title>
+   <link href="http://pixel.wright.is/projects/2014/08/03/simplefa/"/>
+   <updated>2014-08-03T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2014/08/03/simplefa</id>
+   <content type="html">&lt;p&gt;Client-facing landing page for the debt solutions branch of the Glasgow based Simple Financial group offering bespoke financial services and guidance to the general public.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/simplefa3.jpg&quot; alt=&quot;Simple Financial Associates&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A responsive elegant landing page built in HTML/CSS/Javascript, created to serve as a placeholder for a future website for the company.&lt;/p&gt;
+
+&lt;p&gt;As a one page website, remote modals are shown when necessary in order to present all the relevant information for their visitors.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.simplefa.co.uk&quot;&gt;Simple Financial Associates&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Croma Marketing Solutions</title>
+   <link href="http://pixel.wright.is/projects/2013/11/23/croma/"/>
+   <updated>2013-11-23T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/projects/2013/11/23/croma</id>
+   <content type="html">&lt;p&gt;A consultancy in strategic planning, marketing management and innovation. They believe in transformation and contribute to break patterns, integrate efforts, streamline operations and empower leaders to drive change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/croma3.jpg&quot; alt=&quot;Croma&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The responsive HTML+CSS+Javascript website, created to establish the company&amp;#39;s new identity, features jQuery animation, a secure content management system for the company&amp;#39;s blog, and custom Google Maps Engine. All of this is fully optimised for usability on every possible screen size, from mobiles to tablets, to large desktop monitors.&lt;/p&gt;
+
+&lt;p&gt;In order to increase their online presence, Facebook, Google+ and Linkedin pages, a YouTube channel, and Twitter, Foursquare and Instagram profiles were created to announce events, courses, blog posts, special offers and other updates from the company.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://cromasolutions.com.br&quot;&gt;Croma Marketing Solutions&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Online Presence, CMS, Social Media&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fit In Company</title>
+   <link href="http://pixel.wright.is/projects/2013/09/18/fitincompany/"/>
+   <updated>2013-09-18T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2013/09/18/fitincompany</id>
+   <content type="html">&lt;p&gt;Their goal is to make it affordable for any organisation in Brazil, to have efficient health programs and quality of life at the workplace, that generate full satisfaction and value for their customers, employees, investors and partners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/fitincompany.jpg&quot; alt=&quot;Fit In Company&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The website in HTML/CSS/Javascript features Jquery animation and a dynamic content blog area managed through a secure content management system. All of this is fully optimised for usability both on desktops and mobile platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.fitincompany.com.br&quot;&gt;Fit In Company&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Front End Development&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plastamp</title>
+   <link href="http://pixel.wright.is/projects/2013/06/09/plastamp/"/>
+   <updated>2013-06-09T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2013/06/09/plastamp</id>
+   <content type="html">&lt;p&gt;Solutions provider for the plastic container market with two highly technological factories offering products to some of the largest food and beverages, cosmetics, hygiene, cleaning supplies and plastic container companies in Brazil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/plastamp.jpg&quot; alt=&quot;Plastamp&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The website in HTML/CSS, also has javascript animations and dynamic content for the company’s latest updates. All of this is fully optimised for usability both on desktops and mobile platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.plastamp.com.br&quot;&gt;Plastamp&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
  </entry>
