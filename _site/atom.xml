@@ -4,30 +4,13 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2016-01-28T00:00:01+00:00</updated>
+ <updated>2016-01-28T09:37:58+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
    <email>will@wright.is</email>
  </author>
 
- 
- <entry>
-   <title>Flavourly.com</title>
-   <link href="http://pixel.wright.is/journal/projects/2016/01/27/flavourly/"/>
-   <updated>2016-01-27T00:00:00+00:00</updated>
-   <id>http://pixel.wright.is/journal/projects/2016/01/27/flavourly</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Flavourly.com&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;A mobile-first HTML5/SASS website and in-house eCommerce &amp;quot;BrewStore&amp;quot;, built with scalability, usability and a quality user experience as a main focus.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Client: &lt;a href=&quot;http://www.flavourly.com&quot;&gt;&lt;strong&gt;Flavourly.com&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Stack: &lt;strong&gt;Django, HTML, SASS, Javascript, Python, PostgreSQL&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
  
  <entry>
    <title>Django maths using widthratio</title>
@@ -118,6 +101,23 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;&lt;/li
 &lt;/ul&gt;
 
 &lt;p&gt;I hope you enjoy!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Flavourly.com</title>
+   <link href="http://pixel.wright.is/journal/projects/2014/12/15/flavourly/"/>
+   <updated>2014-12-15T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/journal/projects/2014/12/15/flavourly</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;Flavourly.com&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;A mobile-first HTML5/SASS website and in-house eCommerce &amp;quot;BrewStore&amp;quot;, built with scalability, usability and a quality user experience as a main focus.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Client: &lt;a href=&quot;http://www.flavourly.com&quot;&gt;&lt;strong&gt;Flavourly.com&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stack: &lt;strong&gt;Django, HTML, SASS, Javascript, Python, PostgreSQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </content>
  </entry>
  
