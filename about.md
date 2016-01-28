@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="text-center">
-    <img class="center-block" src="/img/will.png" alt="Will Wright">
+    <img class="center-block" src="/public/img/will.png" alt="Will Wright">
 </p>
 
 <p class="lead">Currently UI Developer &amp; Designer at <a href="//flavourly.com" target="_blank">Flavourly</a>. Previously at Kork Wines. Husband. Dad.</p>
