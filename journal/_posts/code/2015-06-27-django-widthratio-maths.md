@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Django maths using widthratio
-Category: Code
+categories:
+- code
 ---
 
 I use a lot of Django templating and one of my pet peeves is it's inability to handle simple maths. Seriously, why?
@@ -12,12 +13,13 @@ Now, if you're only using integers, you can be quite creative with `widthratio` 
 
 ### Code
 {% highlight python %}
-to compute A*B: {% widthratio A 1 B %}
-to compute A/B: {% widthratio A B 1 %}
-to compute A^2: {% widthratio A 1 A %}
-to compute (A+B)^2: {% widthratio A|add:B 1 A|add:B %}
-to compute (A+B) * (C+D): {% widthratio A|add:B 1 C|add:D %}
+to compute A*B: { % widthratio A 1 B % }
+to compute A/B: { % widthratio A B 1 % }
+to compute A^2: { % widthratio A 1 A % }
+to compute (A+B)^2: { % widthratio A|add:B 1 A|add:B % }
+to compute (A+B) * (C+D): { % widthratio A|add:B 1 C|add:D % }
 {% endhighlight %}
 
 ### Caveats
+- The code above has an extra space between `{` and `%` and `}` to avoid my Jekyll trying to parse it&hellip;
 - Remember `widthratio` rounds everything to integers. So, if you need precise results you should really look elsewhere.

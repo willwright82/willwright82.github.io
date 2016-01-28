@@ -7,6 +7,7 @@ gems: [jekyll-paginate]
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+# permalink:          /:categories/:title/
 #relative_permalinks: true
 
 # Setup
@@ -17,6 +18,8 @@ url:                 http://pixel.wright.is
 baseurl:             /
 blogurl:             /journal/
 bloghome:            /journal/index.html
+projectsurl:         /projects/
+projectshome:        /projects/index.html
 paginate:            5
 paginate_path:       "/journal/page:num"
 

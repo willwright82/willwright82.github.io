@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hi There!
-category: Thoughts
+categories:
+- thoughts
 ---
 
 

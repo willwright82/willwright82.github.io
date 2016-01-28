@@ -15,7 +15,7 @@
 
   <title>
     
-      About &middot; pixelwright
+      Javascript build using node.js &middot; pixelwright
     
   </title>
 
@@ -59,7 +59,7 @@
     
       
         
-          <a class="sidebar-nav-item active" href="/about/">About</a>
+          <a class="sidebar-nav-item" href="/about/">About</a>
         
       
     
@@ -137,47 +137,83 @@
       </div>
 
       <div class="container content">
-        <div class="page">
-  <h1 class="page-title">About</h1>
+        <div class="post">
+  <h1 class="post-title">Javascript build using node.js</h1>
+  <span class="post-date">25 Apr 2015</span>
+  <p>As you may have seen in my <a href="/about/">about</a> page, I&#39;m a fan of <a href="http://www.sublimetext.com/3">SublimeText</a> and when using Javascript, it&#39;s handy to have a test console.</p>
+
+<p>Usually this would be done in Dev Tools&#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.</p>
+
+<p>Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.</p>
+
+<h3>Let&#39;s get ready</h3>
+
+<ol>
+<li><p>You will need to have Node installed, if you don&#39;t simply head over to <a href="http://nodejs.org">their website</a> and run it using the default settings.</p></li>
+<li><p>Go to &quot;Tools ➜ Build System ➜ New Build System&quot; in the menu bar.
+Paste this replacing everything in the new tab that has opened:</p></li>
+</ol>
+
+<p><code>{
+&quot;cmd&quot;: [&quot;node&quot;, &quot;$file&quot;],
+&quot;selector&quot;: &quot;source.js&quot;
+}</code></p>
+
+<ol>
+<li>Save this file as &quot;node.sublime-build&quot; in the default &quot;user&quot; folder. Your build system is ready!</li>
+</ol>
+
+<h3>Usage</h3>
+
+<ol>
+<li><p>Open a Javascript file you would like to run in Sublime.</p></li>
+<li><p>Go to &quot;Tools ➜ Build System&quot; in the menu bar and select &quot;node&quot;, the build system that you&#39;ve just created.</p></li>
+<li><p>Go to &quot;Tools ➜ Build&quot; in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!</p></li>
+</ol>
+
+  <hr>
+  <h2 class="text-center">Questions?</h2>
   <p class="text-center">
-    <img class="center-block" src="/img/will.png" alt="Will Wright">
-</p>
-
-<p class="lead">Currently UI Developer &amp; Designer at <a href="//flavourly.com" target="_blank">Flavourly</a>. Previously at Kork Wines. Husband. Dad.</p>
-
-<p>Will Wright is an Edinburgh based Front End UI Developer &amp; Digital Designer, with a background in marketing, advertising and graphic design. With over 14 years of experience, he has acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability. His core competences include:</p>
-
-<p class="message text-center">Digital &amp; Graphic Design &bull; Front End UI Development in HTML5, CSS3 &amp; SASS, JavaScript &amp; jQuery &bull; AngularJS &bull; Meteor &bull; Git &bull; Art &amp; Creative Direction &bull; Responsive Web Design &bull; e-Commerce &bull; Google Analytics Certified &bull; Email Marketing &bull; Display &amp; SEM/PPC (Google Adwords) campaigns &bull; Project &amp; Product Management</p>
-
-<p><hr></p>
-
-<h2>Recommendations</h2>
-
-<p><em>“Will Wright is an exceptionally talented young professional. Besides very well trained, he is deeply perceptive, responsible and supportive. His design recommendations I follow much to my delight. He should fully flourish in any business environment where an artistic bent is cherished.”</em>
-<br><small>~ Alfredo Behrens, Professor, Cross-Cultural Management at FIA Business School, International MBA</small></p>
-
-<p><em>“Will brings together two very interesting traits based on his multicultural upbringing. His keen and trendy creativity shows his Brazilian DNA with a much-focused mindset on objectives. On his heritage, his British organisation counterparts in a very positive manner usually unseen in his line of work. By aggregating these traits makes him a differentiated professional that focuses in the established objectives.”</em>
-<br><small>~ Arthur Wong, Marketing Manager, PR and Club Management at Ducati Motor Holding</small></p>
-
-<p><hr></p>
-
-<h2>About the site</h2>
-
-<p>Some fun facts about this website include:</p>
-
-<ul>
-<li>Designed and coded on a Mac in beautiful Edinburgh, UK</li>
-<li>Coded with <a href="http://sublimetext.com">Sublime Text</a>, the amazing code editor</li>
-<li>Built on <a href="http://jekyllrb.com">Jekyll</a>, the open source static site generator</li>
-<li>Hosted on <a href="https://pages.github.com">GitHub Pages</a></li>
-<li>Developed while listening to <a href="//open.spotify.com/album/4WD4pslu83FF6oMa1e19mF">Blood On The Tracks</a></li>
-</ul>
-
-<p>For comments or questions, feel free to <a href="https://twitter.com/WilliamWright">ask me on Twitter</a>.</p>
-
-<p>Thanks for visiting!</p>
-
+    Have a question about this post, a project or anything else?<br>
+    Let's have a conversation on <a href="https://twitter.com/intent/tweet?text=%40WilliamWright%20YOUR%20COMMENT%20HERE%20%E2%80%94&url=//journal/code/2015/04/25/nodejs-sublimetext-build/" target="_blank">Twitter</a>.
+  </p>
 </div>
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/journal/projects/2016/01/27/flavourly/">
+            Flavourly.com
+            <small>27 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/journal/code/2015/06/27/django-widthratio-maths/">
+            Django maths using widthratio
+            <small>27 Jun 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/journal/thoughts/2015/04/11/hello-world/">
+            Hi There!
+            <small>11 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
 
       </div>
 

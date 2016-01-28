@@ -15,7 +15,7 @@
 
   <title>
     
-      About &middot; pixelwright
+      Django maths using widthratio &middot; pixelwright
     
   </title>
 
@@ -59,26 +59,10 @@
     
       
         
-          <a class="sidebar-nav-item active" href="/about/">About</a>
+          <a class="sidebar-nav-item" href="/about/">About</a>
         
       
     
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
       
     
       
@@ -137,47 +121,73 @@
       </div>
 
       <div class="container content">
-        <div class="page">
-  <h1 class="page-title">About</h1>
-  <p class="text-center">
-    <img class="center-block" src="/img/will.png" alt="Will Wright">
-</p>
+        <div class="post">
+  <h1 class="post-title">Django maths using widthratio</h1>
+  <span class="post-date">27 Jun 2015</span>
+  <p>I use a lot of Django templating and one of my pet peeves is it&#39;s inability to handle simple maths. Seriously, why?</p>
 
-<p class="lead">Currently UI Developer &amp; Designer at <a href="//flavourly.com" target="_blank">Flavourly</a>. Previously at Kork Wines. Husband. Dad.</p>
+<p>Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can <code>add</code>, but that&#39;s about it.</p>
 
-<p>Will Wright is an Edinburgh based Front End UI Developer &amp; Digital Designer, with a background in marketing, advertising and graphic design. With over 14 years of experience, he has acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability. His core competences include:</p>
+<p>Now, if you&#39;re only using integers, you can be quite creative with <code>widthratio</code> to solve many math expressions:</p>
 
-<p class="message text-center">Digital &amp; Graphic Design &bull; Front End UI Development in HTML5, CSS3 &amp; SASS, JavaScript &amp; jQuery &bull; AngularJS &bull; Meteor &bull; Git &bull; Art &amp; Creative Direction &bull; Responsive Web Design &bull; e-Commerce &bull; Google Analytics Certified &bull; Email Marketing &bull; Display &amp; SEM/PPC (Google Adwords) campaigns &bull; Project &amp; Product Management</p>
+<h3>Code</h3>
 
-<p><hr></p>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">*</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">/</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="n">B</span> <span class="mi">1</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">A</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">C</span><span class="o">+</span><span class="n">D</span><span class="p">):</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">C</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">D</span> <span class="o">%</span> <span class="p">}</span></code></pre></figure>
 
-<h2>Recommendations</h2>
-
-<p><em>“Will Wright is an exceptionally talented young professional. Besides very well trained, he is deeply perceptive, responsible and supportive. His design recommendations I follow much to my delight. He should fully flourish in any business environment where an artistic bent is cherished.”</em>
-<br><small>~ Alfredo Behrens, Professor, Cross-Cultural Management at FIA Business School, International MBA</small></p>
-
-<p><em>“Will brings together two very interesting traits based on his multicultural upbringing. His keen and trendy creativity shows his Brazilian DNA with a much-focused mindset on objectives. On his heritage, his British organisation counterparts in a very positive manner usually unseen in his line of work. By aggregating these traits makes him a differentiated professional that focuses in the established objectives.”</em>
-<br><small>~ Arthur Wong, Marketing Manager, PR and Club Management at Ducati Motor Holding</small></p>
-
-<p><hr></p>
-
-<h2>About the site</h2>
-
-<p>Some fun facts about this website include:</p>
+<h3>Caveats</h3>
 
 <ul>
-<li>Designed and coded on a Mac in beautiful Edinburgh, UK</li>
-<li>Coded with <a href="http://sublimetext.com">Sublime Text</a>, the amazing code editor</li>
-<li>Built on <a href="http://jekyllrb.com">Jekyll</a>, the open source static site generator</li>
-<li>Hosted on <a href="https://pages.github.com">GitHub Pages</a></li>
-<li>Developed while listening to <a href="//open.spotify.com/album/4WD4pslu83FF6oMa1e19mF">Blood On The Tracks</a></li>
+<li>The code above has an extra space between <code>{</code> and <code>%</code> and <code>}</code> to avoid my Jekyll trying to parse it&hellip;</li>
+<li>Remember <code>widthratio</code> rounds everything to integers. So, if you need precise results you should really look elsewhere.</li>
 </ul>
 
-<p>For comments or questions, feel free to <a href="https://twitter.com/WilliamWright">ask me on Twitter</a>.</p>
-
-<p>Thanks for visiting!</p>
-
+  <hr>
+  <h2 class="text-center">Questions?</h2>
+  <p class="text-center">
+    Have a question about this post, a project or anything else?<br>
+    Let's have a conversation on <a href="https://twitter.com/intent/tweet?text=%40WilliamWright%20YOUR%20COMMENT%20HERE%20%E2%80%94&url=//journal/2015/06/27/django-widthratio-maths/" target="_blank">Twitter</a>.
+  </p>
 </div>
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="//journal/projects/2016/01/27/flavourly/">
+            Flavourly.com
+            <small>27 Jan 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="//journal/code/2015/04/25/nodejs-sublimetext-build/">
+            Javascript build using node.js
+            <small>25 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="//journal/thoughts/2015/04/11/hello-world/">
+            Hi There!
+            <small>11 Apr 2015</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
 
       </div>
 

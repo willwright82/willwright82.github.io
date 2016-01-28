@@ -49,6 +49,7 @@
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item" href="/">Home</a>
     <a class="sidebar-nav-item active" href="/journal/">Journal</a>
+    <a class="sidebar-nav-item" href="/projects/">Projects</a>
     
     
     
@@ -62,6 +63,30 @@
         
       
     
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
       
     
       
@@ -117,7 +142,62 @@
   
   <div class="post">
     <h1 class="post-title">
-      <a href="/journal/2015/04/25/nodejs-sublimetext-build/">
+      <a href="/journal/projects/2016/01/27/flavourly/">
+        Flavourly.com
+      </a>
+    </h1>
+
+    <span class="post-date">27 Jan 2016</span>
+
+    <p><img src="" alt="Flavourly.com"></p>
+
+<p>A mobile-first HTML5/SASS website and in-house eCommerce &quot;BrewStore&quot;, built with scalability, usability and a quality user experience as a main focus.</p>
+
+<ul>
+<li>Client: <a href="http://www.flavourly.com"><strong>Flavourly.com</strong></a></li>
+<li>Roles: <strong>Digital Design, Front End Development, Photography</strong></li>
+<li>Stack: <strong>Django, HTML, SASS, Javascript, Python, PostgreSQL</strong></li>
+</ul>
+
+  </div>
+  <hr class="medium">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/journal/code/2015/06/27/django-widthratio-maths/">
+        Django maths using widthratio
+      </a>
+    </h1>
+
+    <span class="post-date">27 Jun 2015</span>
+
+    <p>I use a lot of Django templating and one of my pet peeves is it&#39;s inability to handle simple maths. Seriously, why?</p>
+
+<p>Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can <code>add</code>, but that&#39;s about it.</p>
+
+<p>Now, if you&#39;re only using integers, you can be quite creative with <code>widthratio</code> to solve many math expressions:</p>
+
+<h3>Code</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">*</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">/</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="n">B</span> <span class="mi">1</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">A</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
+<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">C</span><span class="o">+</span><span class="n">D</span><span class="p">):</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">C</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">D</span> <span class="o">%</span> <span class="p">}</span></code></pre></figure>
+
+<h3>Caveats</h3>
+
+<ul>
+<li>The code above has an extra space between <code>{</code> and <code>%</code> and <code>}</code> to avoid my Jekyll trying to parse it&hellip;</li>
+<li>Remember <code>widthratio</code> rounds everything to integers. So, if you need precise results you should really look elsewhere.</li>
+</ul>
+
+  </div>
+  <hr class="medium">
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="/journal/code/2015/04/25/nodejs-sublimetext-build/">
         Javascript build using node.js
       </a>
     </h1>
