@@ -4,20 +4,22 @@ title: pixelwright
 permalink: /index.html
 ---
 
-<div class="posts">
-  <!-- WAS: for post in paginator.posts -->
-  {% for post in site.posts %}
-    <div class="post">
-      <h1 class="post-title">
-        <a href="{{ post.url }}">
-          {{ post.title }}
-        </a>
-      </h1>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-      {{ post.content }}
-    </div>
-    <hr class="medium">
-  {% endfor %}
+<div class="posts archive">
+    <!-- WAS: for post in paginator.posts -->
+    {% for post in site.posts %}
+		{% unless post.categories contains 'projects' %}
+            <div class="post">
+                <h3 class="post-title">
+                    <a href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </h3>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+                {{ post.content }}
+            </div>
+            {% comment %} <hr class="medium"> {% endcomment %}
+        {% endunless %}
+    {% endfor %}
 </div>
 
 <div class="pagination">
