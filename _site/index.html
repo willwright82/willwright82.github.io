@@ -95,6 +95,8 @@
       
     
       
+    
+      
         
       
     
@@ -147,107 +149,52 @@
     
 		
             <div class="post">
+                <span class="post-date pull-right">07 Feb 2016</span>
+                <h3 class="post-title">
+                    <a href="/thoughts/2016/02/07/bulma/">
+                        Bulma.io
+                    </a>
+                </h3>
+                
+            </div>
+            
+        
+    
+		
+            <div class="post">
+                <span class="post-date pull-right">27 Jun 2015</span>
                 <h3 class="post-title">
                     <a href="/code/2015/06/27/django-widthratio-maths/">
                         Django maths using widthratio
                     </a>
                 </h3>
-                <span class="post-date">27 Jun 2015</span>
-                <p>I use a lot of Django templating and one of my pet peeves is it&#39;s inability to handle simple maths. Seriously, why?</p>
-
-<p>Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can <code>add</code>, but that&#39;s about it.</p>
-
-<p>Now, if you&#39;re only using integers, you can be quite creative with <code>widthratio</code> to solve many math expressions:</p>
-
-<h3>Code</h3>
-
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">*</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
-<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">/</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="n">B</span> <span class="mi">1</span> <span class="o">%</span> <span class="p">}</span>
-<span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">A</span> <span class="o">%</span> <span class="p">}</span>
-<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
-<span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">C</span><span class="o">+</span><span class="n">D</span><span class="p">):</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">C</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">D</span> <span class="o">%</span> <span class="p">}</span></code></pre></figure>
-
-<h3>Caveats</h3>
-
-<ul>
-<li>The code above has an extra space between <code>{</code> and <code>%</code> and <code>}</code> to avoid my Jekyll trying to parse it&hellip;</li>
-<li>Remember <code>widthratio</code> rounds everything to integers. So, if you need precise results you should really look elsewhere.</li>
-</ul>
-
+                
             </div>
             
         
     
 		
             <div class="post">
+                <span class="post-date pull-right">25 Apr 2015</span>
                 <h3 class="post-title">
                     <a href="/code/2015/04/25/nodejs-sublimetext-build/">
                         Javascript build using node.js
                     </a>
                 </h3>
-                <span class="post-date">25 Apr 2015</span>
-                <p>As you may have seen in my <a href="/about/">about</a> page, I&#39;m a fan of <a href="http://www.sublimetext.com/3">SublimeText</a> and when using Javascript, it&#39;s handy to have a test console.</p>
-
-<p>Usually this would be done in Dev Tools&#39; console, but you can also create a simple Node.js build system and get results without having to leave Sublime.</p>
-
-<p>Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.</p>
-
-<h3>Let&#39;s get ready</h3>
-
-<ol>
-<li><p>You will need to have Node installed, if you don&#39;t simply head over to <a href="http://nodejs.org">their website</a> and run it using the default settings.</p></li>
-<li><p>Go to &quot;Tools ➜ Build System ➜ New Build System&quot; in the menu bar.
-Paste this replacing everything in the new tab that has opened:</p></li>
-</ol>
-
-<p><code>{
-&quot;cmd&quot;: [&quot;node&quot;, &quot;$file&quot;],
-&quot;selector&quot;: &quot;source.js&quot;
-}</code></p>
-
-<ol>
-<li>Save this file as &quot;node.sublime-build&quot; in the default &quot;user&quot; folder. Your build system is ready!</li>
-</ol>
-
-<h3>Usage</h3>
-
-<ol>
-<li><p>Open a Javascript file you would like to run in Sublime.</p></li>
-<li><p>Go to &quot;Tools ➜ Build System&quot; in the menu bar and select &quot;node&quot;, the build system that you&#39;ve just created.</p></li>
-<li><p>Go to &quot;Tools ➜ Build&quot; in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!</p></li>
-</ol>
-
+                
             </div>
             
         
     
 		
             <div class="post">
+                <span class="post-date pull-right">11 Apr 2015</span>
                 <h3 class="post-title">
                     <a href="/thoughts/2015/04/11/hello-world/">
                         Hi There!
                     </a>
                 </h3>
-                <span class="post-date">11 Apr 2015</span>
-                <p>This is my first post on this new online journal. I&#39;m not sure yet what all this will be about, so I&#39;ll just let it take it&#39;s own direction.</p>
-
-<p>I&#39;ve always written on paper journals in the past, but I&#39;ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That&#39;s why I&#39;ve decided to give this a try.</p>
-
-<h2>What you&#39;ll find here</h2>
-
-<p>Writing is the way I&#39;ve found to organise my thoughts and easily reference back to them in the future. But I won&#39;t be <em>just</em> writing you&#39;ll find here. I&#39;ll also post:</p>
-
-<ul>
-<li>My thoughts on development, design and technology</li>
-<li>Code snippets I find to be useful to others</li>
-<li>Links to interesting articles/products</li>
-<li>Music I enjoyed listening to</li>
-<li>Photographs I enjoyed taking</li>
-<li>Books I enjoyed reading</li>
-</ul>
-
-<p>I hope you enjoy!</p>
-
+                
             </div>
             
         
@@ -266,16 +213,7 @@ Paste this replacing everything in the new tab that has opened:</p></li>
     
 </div>
 
-<div class="pagination">
-  
-    <span class="pagination-item older">Older</span>
-  
-  
-    
-      <a class="pagination-item newer" href="/">Newer</a>
-    
-  
-</div>
+
 
       </div>
 

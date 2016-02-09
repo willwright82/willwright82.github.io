@@ -1,3 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 /*
  * Contents
  *
@@ -551,6 +555,15 @@ a.pagination-item:hover {
 /*
  * Misc
  */
+
+.archive {
+    .post {
+        margin-bottom: 2em;
+        .post-date {
+            margin-top: 0em;
+        }
+    }
+}
 
 .center-block {
   display: block;
