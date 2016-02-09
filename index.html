@@ -9,19 +9,20 @@ permalink: /index.html
     {% for post in site.posts %}
 		{% unless post.categories contains 'projects' %}
             <div class="post">
+                <span class="post-date pull-right">{{ post.date | date_to_string }}</span>
                 <h3 class="post-title">
                     <a href="{{ post.url }}">
                         {{ post.title }}
                     </a>
                 </h3>
-                <span class="post-date">{{ post.date | date_to_string }}</span>
-                {{ post.content }}
+                {% comment %}{{ post.content }}{% endcomment %}
             </div>
             {% comment %} <hr class="medium"> {% endcomment %}
         {% endunless %}
     {% endfor %}
 </div>
 
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
@@ -38,3 +39,4 @@ permalink: /index.html
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+{% endcomment %}

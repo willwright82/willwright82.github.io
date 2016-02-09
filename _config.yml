@@ -1,5 +1,5 @@
 # Dependencies
-markdown:            redcarpet
+# markdown:            redcarpet
 highlighter:         pygments
 gems: [jekyll-paginate, jekyll-gist]
 
@@ -22,6 +22,8 @@ projectsurl:         /projects/
 projectshome:        /projects/index.html
 paginate:            5
 paginate_path:       "/page:num"
+sass:
+  style: compressed
 
 # About/contact
 author:

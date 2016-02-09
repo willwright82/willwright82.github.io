@@ -95,6 +95,8 @@
       
     
       
+    
+      
         
       
     
@@ -145,13 +147,13 @@
         <div class="post">
   <h1 class="post-title">Django maths using widthratio</h1>
   <span class="post-date">27 Jun 2015</span>
-  <p>I use a lot of Django templating and one of my pet peeves is it&#39;s inability to handle simple maths. Seriously, why?</p>
+  <p>I use a lot of Django templating and one of my pet peeves is it’s inability to handle simple maths. Seriously, why?</p>
 
-<p>Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can <code>add</code>, but that&#39;s about it.</p>
+<p>Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can <code>add</code>, but that’s about it.</p>
 
-<p>Now, if you&#39;re only using integers, you can be quite creative with <code>widthratio</code> to solve many math expressions:</p>
+<p>Now, if you’re only using integers, you can be quite creative with <code>widthratio</code> to solve many math expressions:</p>
 
-<h3>Code</h3>
+<h3 id="code">Code</h3>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">*</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="mi">1</span> <span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
 <span class="n">to</span> <span class="n">compute</span> <span class="n">A</span><span class="o">/</span><span class="n">B</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span> <span class="n">B</span> <span class="mi">1</span> <span class="o">%</span> <span class="p">}</span>
@@ -159,11 +161,10 @@
 <span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span><span class="o">^</span><span class="mi">2</span><span class="p">:</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="o">%</span> <span class="p">}</span>
 <span class="n">to</span> <span class="n">compute</span> <span class="p">(</span><span class="n">A</span><span class="o">+</span><span class="n">B</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">C</span><span class="o">+</span><span class="n">D</span><span class="p">):</span> <span class="p">{</span> <span class="o">%</span> <span class="n">widthratio</span> <span class="n">A</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">B</span> <span class="mi">1</span> <span class="n">C</span><span class="o">|</span><span class="n">add</span><span class="p">:</span><span class="n">D</span> <span class="o">%</span> <span class="p">}</span></code></pre></figure>
 
-<h3>Caveats</h3>
-
+<h3 id="caveats">Caveats</h3>
 <ul>
-<li>The code above has an extra space between <code>{</code> and <code>%</code> and <code>}</code> to avoid my Jekyll trying to parse it&hellip;</li>
-<li>Remember <code>widthratio</code> rounds everything to integers. So, if you need precise results you should really look elsewhere.</li>
+  <li>The code above has an extra space between <code>{</code> and <code>%</code> and <code>}</code> to avoid my Jekyll trying to parse it…</li>
+  <li>Remember <code>widthratio</code> rounds everything to integers. So, if you need precise results you should really look elsewhere.</li>
 </ul>
 
   <hr>
@@ -181,6 +182,15 @@
     
       <li>
         <h3>
+          <a href="/thoughts/2016/02/07/bulma/">
+            Bulma.io
+            <small>07 Feb 2016</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
           <a href="/code/2015/04/25/nodejs-sublimetext-build/">
             Javascript build using node.js
             <small>25 Apr 2015</small>
@@ -193,15 +203,6 @@
           <a href="/thoughts/2015/04/11/hello-world/">
             Hi There!
             <small>11 Apr 2015</small>
-          </a>
-        </h3>
-      </li>
-    
-      <li>
-        <h3>
-          <a href="/projects/2014/12/15/flavourly/">
-            Flavourly.com
-            <small>15 Dec 2014</small>
           </a>
         </h3>
       </li>
