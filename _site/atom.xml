@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>pixelwright</title>
+ <link href="http://pixel.wright.is/atom.xml" rel="self"/>
+ <link href="http://pixel.wright.is/"/>
+ <updated>2016-02-09T22:37:29+00:00</updated>
+ <id>http://pixel.wright.is</id>
+ <author>
+   <name>Will Wright</name>
+   <email>will@wright.is</email>
+ </author>
+
+ 
+ <entry>
+   <title>Bulma.io</title>
+   <link href="http://pixel.wright.is/thoughts/2016/02/07/bulma/"/>
+   <updated>2016-02-07T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/thoughts/2016/02/07/bulma</id>
+   <content type="html">&lt;p class=&quot;text-center&quot;&gt;
+    &lt;img class=&quot;img-responsive center&quot; src=&quot;http://bulma.io/images/b.png&quot; width=&quot;150&quot; alt=&quot;Bulma: a Flexbox CSS framework&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.bulma.io&quot;&gt;Bulma&lt;/a&gt; is a new modern CSS framework by &lt;a href=&quot;http://jgthms.com&quot;&gt;Jeremy Thomas&lt;/a&gt; based on &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes&quot;&gt;Flexbox&lt;/a&gt; which seems incredibly straight forward.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+
+&lt;p&gt;Simply enter:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;npm install bulma&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Alternatively head over to their &lt;a href=&quot;https://github.com/jgthms/bulma&quot;&gt;GitHub repository page&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;h4 id=&quot;simple-grid-system&quot;&gt;Simple grid system&lt;/h4&gt;
+
+&lt;p&gt;Just add columns, they will resize themselves:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;columns&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;column&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;column&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;column&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;column&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;4&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;column&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;5&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;flexible-navbar&quot;&gt;Flexible Navbar&lt;/h4&gt;
+
+&lt;p&gt;Include any type of element, they will remain vertically aligned:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Left side --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-left&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;subtitle is-5&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;strong&amp;gt;&lt;/span&gt;123&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&lt;/span&gt; posts
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;control is-grouped&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;input&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;text&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;placeholder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Find a post&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;button&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+          Search
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- Right side --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-right&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;strong&amp;gt;&lt;/span&gt;All&lt;span class=&quot;nt&quot;&gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Published&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Drafts&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Deleted&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navbar-item&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;button is-success&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;New&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;versatile-media-object&quot;&gt;Versatile media object&lt;/h4&gt;
+
+&lt;p&gt;A simple block with an image&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;card&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;card-image is-4x3&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/300x225&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;card-content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;media&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;media-image is-40&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/40x40&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;media-content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;title is-5&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;John Smith&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;subtitle is-6&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;@johnsmith&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;content&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Phasellus nec iaculis mauris. &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;@bulmaio&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;.
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;#css&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;#responsive&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;br&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;small&amp;gt;&lt;/span&gt;11:09 PM - 1 Jan 2016&lt;span class=&quot;nt&quot;&gt;&amp;lt;/small&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;easy-vertical-centering&quot;&gt;Easy vertical centering&lt;/h4&gt;
+
+&lt;p&gt;Include any content you want, it’s easily centered&lt;/p&gt;
+
+&lt;h4 id=&quot;compose-your-element-with-modifier-classes&quot;&gt;Compose your element with modifier classes&lt;/h4&gt;
+
+&lt;p&gt;Add and combine &lt;code&gt;is-*&lt;/code&gt; CSS classes to quickly alter styles&lt;/p&gt;
+
+&lt;h4 id=&quot;and-much-more&quot;&gt;And much more&lt;/h4&gt;
+
+&lt;p&gt;Check out the whole documentation over at &lt;a href=&quot;http://bulma.io/documentation/overview/&quot;&gt;bulma.io&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Django maths using widthratio</title>
+   <link href="http://pixel.wright.is/code/2015/06/27/django-widthratio-maths/"/>
+   <updated>2015-06-27T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/code/2015/06/27/django-widthratio-maths</id>
+   <content type="html">&lt;p&gt;I use a lot of Django templating and one of my pet peeves is it’s inability to handle simple maths. Seriously, why?&lt;/p&gt;
+
+&lt;p&gt;Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can &lt;code&gt;add&lt;/code&gt;, but that’s about it.&lt;/p&gt;
+
+&lt;p&gt;Now, if you’re only using integers, you can be quite creative with &lt;code&gt;widthratio&lt;/code&gt; to solve many math expressions:&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;compute&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;widthratio&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;caveats&quot;&gt;Caveats&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The code above has an extra space between &lt;code&gt;{&lt;/code&gt; and &lt;code&gt;%&lt;/code&gt; and &lt;code&gt;}&lt;/code&gt; to avoid my Jekyll trying to parse it…&lt;/li&gt;
+  &lt;li&gt;Remember &lt;code&gt;widthratio&lt;/code&gt; rounds everything to integers. So, if you need precise results you should really look elsewhere.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Javascript build using node.js</title>
+   <link href="http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build/"/>
+   <updated>2015-04-25T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build</id>
+   <content type="html">&lt;p&gt;As you may have seen in my &lt;a href=&quot;/about/&quot;&gt;about&lt;/a&gt; page, I’m a fan of &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;SublimeText&lt;/a&gt; and when using Javascript, it’s handy to have a test console.&lt;/p&gt;
+
+&lt;p&gt;Usually this would be done in Dev Tools’ console, but you can also create a simple Node.js build system and get results without having to leave Sublime.&lt;/p&gt;
+
+&lt;p&gt;Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.&lt;/p&gt;
+
+&lt;h3 id=&quot;lets-get-ready&quot;&gt;Let’s get ready&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;You will need to have Node installed, if you don’t simply head over to &lt;a href=&quot;http://nodejs.org&quot;&gt;their website&lt;/a&gt; and run it using the default settings.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to “Tools ➜ Build System ➜ New Build System” in the menu bar.
+Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;{
+&quot;cmd&quot;: [&quot;node&quot;, &quot;$file&quot;],
+&quot;selector&quot;: &quot;source.js&quot;
+}&lt;/code&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Save this file as “node.sublime-build” in the default “user” folder. Your build system is ready!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open a Javascript file you would like to run in Sublime.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to “Tools ➜ Build System” in the menu bar and select “node”, the build system that you’ve just created.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to “Tools ➜ Build” in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hi There!</title>
+   <link href="http://pixel.wright.is/thoughts/2015/04/11/hello-world/"/>
+   <updated>2015-04-11T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/thoughts/2015/04/11/hello-world</id>
+   <content type="html">&lt;p&gt;This is my first post on this new online journal. I’m not sure yet what all this will be about, so I’ll just let it take it’s own direction.&lt;/p&gt;
+
+&lt;p&gt;I’ve always written on paper journals in the past, but I’ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That’s why I’ve decided to give this a try.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-youll-find-here&quot;&gt;What you’ll find here&lt;/h2&gt;
+
+&lt;p&gt;Writing is the way I’ve found to organise my thoughts and easily reference back to them in the future. But I won’t be &lt;em&gt;just&lt;/em&gt; writing you’ll find here. I’ll also post:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My thoughts on development, design and technology&lt;/li&gt;
+  &lt;li&gt;Code snippets I find to be useful to others&lt;/li&gt;
+  &lt;li&gt;Links to interesting articles/products&lt;/li&gt;
+  &lt;li&gt;Music I enjoyed listening to&lt;/li&gt;
+  &lt;li&gt;Photographs I enjoyed taking&lt;/li&gt;
+  &lt;li&gt;Books I enjoyed reading&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I hope you enjoy!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Flavourly.com</title>
+   <link href="http://pixel.wright.is/projects/2014/12/15/flavourly/"/>
+   <updated>2014-12-15T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/projects/2014/12/15/flavourly</id>
+   <content type="html">&lt;p&gt;Flavourly is a food &amp;amp; craft beer discovery service which helps consumers discover amazing products monthly from small independent suppliers, while providing a viable sales channel for suppliers to both grow their business and launch new products.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/flavourly3.jpg&quot; alt=&quot;Flavourly.com&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A mobile-first HTML5/SASS website and in-house eCommerce “BrewStore”, built with scalability, usability and a quality user experience as a main focus.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;a href=&quot;http://www.flavourly.com&quot;&gt;&lt;strong&gt;Flavourly.com&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;Django, HTML, SASS, Javascript, Python, PostgreSQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Life Insurance Quotes UK</title>
+   <link href="http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes/"/>
+   <updated>2014-08-28T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes</id>
+   <content type="html">&lt;p&gt;A website dedicated to finding the best life insurance deals on the market. Life Insurance Quotes UK compares Life Insurance, Mortgage Life Insurance, Family Income Benefit, Critical Illness Cover and Whole of Life protection policies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/liq3.jpg&quot; alt=&quot;Life Insurance Quotes UK&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A responsive website, which features a PHP/Javascript enabled Web App, allowing the visitor to easily compare quotes from all the major UK life insurance providers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;strong&gt;Life Insurance Quotes UK&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, AngularJS, PHP&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Simple Financial Associates</title>
+   <link href="http://pixel.wright.is/projects/2014/08/03/simplefa/"/>
+   <updated>2014-08-03T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2014/08/03/simplefa</id>
+   <content type="html">&lt;p&gt;Client-facing landing page for the debt solutions branch of the Glasgow based Simple Financial group offering bespoke financial services and guidance to the general public.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/simplefa3.jpg&quot; alt=&quot;Simple Financial Associates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A responsive elegant landing page built in HTML/CSS/Javascript, created to serve as a placeholder for a future website for the company.&lt;/p&gt;
+
+&lt;p&gt;As a one page website, remote modals are shown when necessary in order to present all the relevant information for their visitors.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.simplefa.co.uk&quot;&gt;Simple Financial Associates&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Croma Marketing Solutions</title>
+   <link href="http://pixel.wright.is/projects/2013/11/23/croma/"/>
+   <updated>2013-11-23T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/projects/2013/11/23/croma</id>
+   <content type="html">&lt;p&gt;A consultancy in strategic planning, marketing management and innovation. They believe in transformation and contribute to break patterns, integrate efforts, streamline operations and empower leaders to drive change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/croma3.jpg&quot; alt=&quot;Croma&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The responsive HTML+CSS+Javascript website, created to establish the company’s new identity, features jQuery animation, a secure content management system for the company’s blog, and custom Google Maps Engine. All of this is fully optimised for usability on every possible screen size, from mobiles to tablets, to large desktop monitors.&lt;/p&gt;
+
+&lt;p&gt;In order to increase their online presence, Facebook, Google+ and Linkedin pages, a YouTube channel, and Twitter, Foursquare and Instagram profiles were created to announce events, courses, blog posts, special offers and other updates from the company.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://cromasolutions.com.br&quot;&gt;Croma Marketing Solutions&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Digital Design, Front End Development, Online Presence, CMS, Social Media&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fit In Company</title>
+   <link href="http://pixel.wright.is/projects/2013/09/18/fitincompany/"/>
+   <updated>2013-09-18T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2013/09/18/fitincompany</id>
+   <content type="html">&lt;p&gt;Their goal is to make it affordable for any organisation in Brazil, to have efficient health programs and quality of life at the workplace, that generate full satisfaction and value for their customers, employees, investors and partners.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/fitincompany.jpg&quot; alt=&quot;Fit In Company&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The website in HTML/CSS/Javascript features Jquery animation and a dynamic content blog area managed through a secure content management system. All of this is fully optimised for usability both on desktops and mobile platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.fitincompany.com.br&quot;&gt;Fit In Company&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Front End Development&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Plastamp</title>
+   <link href="http://pixel.wright.is/projects/2013/06/09/plastamp/"/>
+   <updated>2013-06-09T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/projects/2013/06/09/plastamp</id>
+   <content type="html">&lt;p&gt;Solutions provider for the plastic container market with two highly technological factories offering products to some of the largest food and beverages, cosmetics, hygiene, cleaning supplies and plastic container companies in Brazil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/public/img/projects/plastamp.jpg&quot; alt=&quot;Plastamp&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The website in HTML/CSS, also has javascript animations and dynamic content for the company’s latest updates. All of this is fully optimised for usability both on desktops and mobile platforms.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Client: &lt;strong&gt;&lt;a href=&quot;http://www.plastamp.com.br&quot;&gt;Plastamp&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Roles: &lt;strong&gt;Front End Development, Photography&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Stack: &lt;strong&gt;HTML, CSS, Javascript, PHP, MySQL&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>
