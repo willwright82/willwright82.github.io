@@ -15,7 +15,7 @@
 
   <title>
     
-      Random &middot; pixelwright
+      Random Hex colours using Javascript &middot; pixelwright
     
   </title>
 
@@ -155,12 +155,20 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Random</h1>
+  <h1 class="post-title">Random Hex colours using Javascript</h1>
   <span class="post-date">30 Mar 2015</span>
   <p>Here is a quick and short way to generate random #Hex colours using Javascript:</p>
 
 <h3 id="code">Code</h3>
-<script src="https://gist.github.com/willwright82/93b0bdd4f8d6cb574577.js"> </script>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="s1">'#'</span><span class="o">+</span><span class="p">(</span><span class="s1">'00000'</span><span class="o">+</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">24</span><span class="p">)</span><span class="o">|</span><span class="mi">0</span><span class="p">).</span><span class="nx">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">)).</span><span class="nx">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">);</span>
+
+<span class="c1">// To use a string (such as user_id) for a unique colour:
+</span>
+
+<span class="kd">function</span> <span class="nx">stringToColorCode</span><span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">str</span> <span class="k">in</span> <span class="nx">color_codes</span><span class="p">)</span> <span class="p">?</span> <span class="nx">color_codes</span><span class="p">[</span><span class="nx">str</span><span class="p">]</span> <span class="p">:</span> <span class="p">(</span><span class="nx">color_codes</span><span class="p">[</span><span class="nx">str</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'#'</span><span class="o">+</span><span class="p">(</span><span class="s1">'00000'</span><span class="o">+</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">24</span><span class="p">)</span><span class="o">|</span><span class="mi">0</span><span class="p">).</span><span class="nx">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">)).</span><span class="nx">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">));</span>
+<span class="p">}</span></code></pre></figure>
 
 
   <hr>
