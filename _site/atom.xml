@@ -4,7 +4,7 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2016-02-10T10:54:04+00:00</updated>
+ <updated>2016-02-10T15:17:03+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
@@ -217,6 +217,19 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I hope you enjoy!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Random</title>
+   <link href="http://pixel.wright.is/code/2015/03/30/randomhexjs/"/>
+   <updated>2015-03-30T00:00:00+01:00</updated>
+   <id>http://pixel.wright.is/code/2015/03/30/randomhexjs</id>
+   <content type="html">&lt;p&gt;Here is a quick and short way to generate random #Hex colours using Javascript:&lt;/p&gt;
+
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
+&lt;script src=&quot;https://gist.github.com/willwright82/93b0bdd4f8d6cb574577.js&quot;&gt; &lt;/script&gt;
+
 </content>
  </entry>
  
