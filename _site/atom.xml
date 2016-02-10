@@ -4,7 +4,7 @@
  <title>pixelwright</title>
  <link href="http://pixel.wright.is/atom.xml" rel="self"/>
  <link href="http://pixel.wright.is/"/>
- <updated>2016-02-09T23:26:42+00:00</updated>
+ <updated>2016-02-10T10:48:02+00:00</updated>
  <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Bulma.io</title>
-   <link href="http://pixel.wright.is/thoughts/2016/02/07/bulma/"/>
+   <link href="http://pixel.wright.is/links/2016/02/07/bulma/"/>
    <updated>2016-02-07T00:00:00+00:00</updated>
-   <id>http://pixel.wright.is/thoughts/2016/02/07/bulma</id>
+   <id>http://pixel.wright.is/links/2016/02/07/bulma</id>
    <content type="html">&lt;p class=&quot;text-center&quot;&gt;
     &lt;img class=&quot;img-responsive center&quot; src=&quot;http://bulma.io/images/b.png&quot; width=&quot;150&quot; alt=&quot;Bulma: a Flexbox CSS framework&quot; /&gt;
 &lt;/p&gt;
