@@ -15,7 +15,7 @@
 
   <title>
     
-      Javascript build using node.js &middot; pixelwright
+      Random Hex colours using Javascript &middot; pixelwright
     
   </title>
 
@@ -155,54 +155,27 @@
 
       <div class="container content">
         <div class="post">
-  <h1 class="post-title">Javascript build using node.js</h1>
-  <span class="post-date">25 Apr 2015</span>
-  <p>As you may have seen in my <a href="/about/">about</a> page, I’m a fan of <a href="http://www.sublimetext.com/3">SublimeText</a> and when using Javascript, it’s handy to have a test console.</p>
+  <h1 class="post-title">Random Hex colours using Javascript</h1>
+  <span class="post-date">15 Aug 2015</span>
+  <p>Here is a quick and short way to generate random #Hex colours using Javascript:</p>
 
-<p>Usually this would be done in Dev Tools’ console, but you can also create a simple Node.js build system and get results without having to leave Sublime.</p>
+<h3 id="code">Code</h3>
 
-<p>Node.js (Node) is a platform built to allow Javascript to run on a server. You can also install it on your computer, as a simple way to run Javascript locally.</p>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="s1">'#'</span><span class="o">+</span><span class="p">(</span><span class="s1">'00000'</span><span class="o">+</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">24</span><span class="p">)</span><span class="o">|</span><span class="mi">0</span><span class="p">).</span><span class="nx">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">)).</span><span class="nx">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">);</span>
 
-<h3 id="lets-get-ready">Let’s get ready</h3>
+<span class="c1">// To use a string (such as user_id) for a unique colour:
+</span>
 
-<ol>
-  <li>
-    <p>You will need to have Node installed, if you don’t simply head over to <a href="http://nodejs.org">their website</a> and run it using the default settings.</p>
-  </li>
-  <li>
-    <p>Go to “Tools ➜ Build System ➜ New Build System” in the menu bar.
-Paste this replacing everything in the new tab that has opened:</p>
-  </li>
-</ol>
+<span class="kd">function</span> <span class="nx">stringToColorCode</span><span class="p">(</span><span class="nx">str</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="p">(</span><span class="nx">str</span> <span class="k">in</span> <span class="nx">color_codes</span><span class="p">)</span> <span class="p">?</span> <span class="nx">color_codes</span><span class="p">[</span><span class="nx">str</span><span class="p">]</span> <span class="p">:</span> <span class="p">(</span><span class="nx">color_codes</span><span class="p">[</span><span class="nx">str</span><span class="p">]</span> <span class="o">=</span> <span class="s1">'#'</span><span class="o">+</span><span class="p">(</span><span class="s1">'00000'</span><span class="o">+</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">*</span><span class="p">(</span><span class="mi">1</span><span class="o">&lt;&lt;</span><span class="mi">24</span><span class="p">)</span><span class="o">|</span><span class="mi">0</span><span class="p">).</span><span class="nx">toString</span><span class="p">(</span><span class="mi">16</span><span class="p">)).</span><span class="nx">slice</span><span class="p">(</span><span class="o">-</span><span class="mi">6</span><span class="p">));</span>
+<span class="p">}</span></code></pre></figure>
 
-<p><code class="highlighter-rouge"><span class="p">{</span><span class="w">
-</span><span class="nt">"cmd"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"node"</span><span class="p">,</span><span class="w"> </span><span class="s2">"$file"</span><span class="p">],</span><span class="w">
-</span><span class="nt">"selector"</span><span class="p">:</span><span class="w"> </span><span class="s2">"source.js"</span><span class="w">
-</span><span class="p">}</span></code></p>
-
-<ol>
-  <li>Save this file as “node.sublime-build” in the default “user” folder. Your build system is ready!</li>
-</ol>
-
-<h3 id="usage">Usage</h3>
-
-<ol>
-  <li>
-    <p>Open a Javascript file you would like to run in Sublime.</p>
-  </li>
-  <li>
-    <p>Go to “Tools ➜ Build System” in the menu bar and select “node”, the build system that you’ve just created.</p>
-  </li>
-  <li>
-    <p>Go to “Tools ➜ Build” in the menu bar to build the Javascript file, or use the shortcut (^ Ctrl+B for Windows, and ⌘ Command+B for Mac). A console will show in a pane at the bottom, with the result of your Javascript!</p>
-  </li>
-</ol>
 
   <hr>
   <h2 class="text-center">Questions?</h2>
   <p class="text-center">
     Have a question about this post, a project or anything else?<br>
-    Let's have a conversation on <a href="https://twitter.com/intent/tweet?text=%40WilliamWright%20YOUR%20COMMENT%20HERE%20%E2%80%94&url=//code/2015/04/25/nodejs-sublimetext-build/" target="_blank">Twitter</a>.
+    Let's have a conversation on <a href="https://twitter.com/intent/tweet?text=%40WilliamWright%20YOUR%20COMMENT%20HERE%20%E2%80%94&url=//code/2015/08/15/randomhexjs/" target="_blank">Twitter</a>.
   </p>
 </div>
 
@@ -222,18 +195,18 @@ Paste this replacing everything in the new tab that has opened:</p>
     
       <li>
         <h3>
-          <a href="/code/2015/08/15/randomhexjs/">
-            Random Hex colours using Javascript
-            <small>15 Aug 2015</small>
+          <a href="/code/2015/06/27/django-widthratio-maths/">
+            Django maths using widthratio
+            <small>27 Jun 2015</small>
           </a>
         </h3>
       </li>
     
       <li>
         <h3>
-          <a href="/code/2015/06/27/django-widthratio-maths/">
-            Django maths using widthratio
-            <small>27 Jun 2015</small>
+          <a href="/code/2015/04/25/nodejs-sublimetext-build/">
+            Javascript build using node.js
+            <small>25 Apr 2015</small>
           </a>
         </h3>
       </li>
