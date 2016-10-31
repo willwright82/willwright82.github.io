@@ -2,14 +2,14 @@
   "basics": {
     "name": "Will Wright",
     "label": "UI Developer & Designer",
-    "picture": "",
+    "picture": "http://pixel.wright.is/public/img/will.png",
     "email": "will@wright.is",
     "phone": "+44 (0)7922 774469",
     "website": "http://pixel.wright.is",
-    "summary": "Highly creative Front End UI Developer and Designer, with a background in marketing, advertising and graphic design. With over 14 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
+    "summary": "Highly creative Front End UI Developer, with a background in graphic design. With over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
     "location": {
-      "address": "7/4 Braehead Drive",
-      "postalCode": "EH4 6QH",
+      "address": "27 Brighouse Park Cross",
+      "postalCode": "EH4 6GZ",
       "city": "Edinburgh",
       "countryCode": "UK",
       "region": "Scotland"
@@ -29,9 +29,22 @@
   },
   "work": [
     {
+      "company": "Clazzoo.com",
+      "position": "Front End Lead",
+      "website": "www.clazzoo.com",
+      "startDate": "2016-03-01",
+      "endDate": "",
+      "summary": "Clazzoo's mission is to create an effortless way for anyone to run, discover and join recurring activities and classes, right on their doorstep.",
+      "highlights": [
+        "Responsible for the build, design implementation and maintenance of the company's web app based on Ruby on Rails, including customer facing interface, provider's dashboard and admin environment."
+      ]
+    },
+    {
       "company": "Flavourly.com",
       "position": "UI Developer & Designer",
+      "website": "www.flavourly.com",
       "startDate": "2014-10-01",
+      "endDate": "2016-02-29",
       "summary": "As recently featured on the BBC's Dragons Den where we received 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from the nations best independent suppliers via our subscription sampling service. Each month we to match our customers to the most mouth-watering products and deliver them direct to their desk or door! Our online marketplace then makes it super easy to order more of your new favourite products!",
       "highlights": [
         "Redesign and responsive development (HTML, CSS, Javascript, jQuery & Django) of the company's new mobile-first website and eCommerce BrewStore, all of this with usability and a quality user experience as a main focus.",
@@ -41,6 +54,7 @@
     {
       "company": "Simple Financial",
       "position": "Web Development Contract",
+      "website": "www.simplefs.com",
       "startDate": "2014-07-01",
       "endDate": "2014-09-30",
       "summary": "Simple Financial is a Glasgow based group of 4 companies offering bespoke financial services and guidance to the public.",
@@ -52,6 +66,7 @@
     {
       "company": "Kork Wines",
       "position": "Co-founder",
+      "website": "www.kork.com.br",
       "startDate": "2012-04-02",
       "endDate": "2014-06-30",
       "summary": "Kork Wines was an online retailer of carefully curated wines from small and passionate producers from around the world.",
@@ -66,6 +81,7 @@
     {
       "company": "Nautillus Design & Strategy",
       "position": "Digital Creative Director",
+      "website": "www.nautillus.biz",
       "startDate": "2012-02-03",
       "endDate": "2014-02-28",
       "summary": "Nautillus is a full-service advertising and design agency with a focus on delivering innovative and strategic solutions through an extensive cooperative network of professionals with diverse specialities, allocated on a per project basis.",
@@ -78,6 +94,7 @@
     {
       "company": "Wrightdesign",
       "position": "Front End Developer & Designer",
+      "website": "design.wright.is",
       "startDate": "2009-12-15",
       "endDate": "2012-01-31",
       "summary": "Freelancer in the fields of graphic & digital design and development including websites, print and digital advertising (display and SEM/PPC), branding, brochures, CMS, HTML email newsletters, web analytics reports and more.",
@@ -89,6 +106,7 @@
     {
       "company": "Extra.com",
       "position": "Digital Creative Director",
+      "website": "",
       "startDate": "2008-02-04",
       "endDate": "2009-12-19",
       "summary": "Extra.com is an advertising agency offering an attentive integrated service to local businesses.",
@@ -100,6 +118,7 @@
     {
       "company": "Apple UK",
       "position": "Mac Specialist / Creative",
+      "website": "www.apple.com/uk",
       "startDate": "2007-03-01",
       "endDate": "2007-12-21",
       "summary": "European Operation Centre in London of the American multinational corporation headquartered in California, that designs, develops, and sells consumer electronics, computer software and personal computers.",
@@ -111,6 +130,7 @@
     {
       "company": "WG Communication",
       "position": "Art Director",
+      "website": "",
       "startDate": "2004-12-01",
       "endDate": "2007-01-15",
       "summary": "A medium-sized advertising agency with high-profile clients, in the areas of trading, food and beverages, and publishing.",
@@ -121,6 +141,7 @@
     {
       "company": "W/Brasil (now W/McCann)",
       "position": "Art Direction Intern",
+      "website": "",
       "startDate": "2003-06-01",
       "endDate": "2004-12-31",
       "summary": "One of the world's most creative advertising agencies, awarded over 30 Golden Awards at Cannes and other events.",
@@ -131,6 +152,7 @@
     {
       "company": "DF Systems (IBM)",
       "position": "Software Development Intern",
+      "website": "",
       "startDate": "2001-08-01",
       "endDate": "2002-11-31",
       "summary": "IBM in-house systems development for distance learning platforms.",
@@ -139,13 +161,16 @@
       ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "FIA Business School",
+      "area": "",
       "studyType": "International MBA",
       "startDate": "2009-02-01",
       "endDate": "2010-12-31",
-      "gpa": "4.0"
+      "gpa": "4.0",
+      "courses": []
     },
     {
       "institution": "University Of The Arts London - Central Saint Martin's School of Art and Design",
@@ -153,7 +178,8 @@
       "studyType": "Postgraduate",
       "startDate": "2005-06-01",
       "endDate": "2005-08-01",
-      "gpa": "4.0"
+      "gpa": "4.0",
+      "courses": []
     },
     {
       "institution": "Mackenzie University",
@@ -161,7 +187,8 @@
       "studyType": "Bachelor of Arts in Advertising and Marketing",
       "startDate": "2003-06-05",
       "endDate": "2006-12-15",
-      "gpa": "4.0"
+      "gpa": "4.0",
+      "courses": []
     },
     {
       "institution": "Mackenzie University",
@@ -169,7 +196,8 @@
       "studyType": "Undergraduate studies in Electronic Engineering",
       "startDate": "2000-01-05",
       "endDate": "2003-12-15",
-      "gpa": ""
+      "gpa": "",
+      "courses": []
     },
     {
       "institution": "Miguel de Cervantes (Spanish)",
@@ -177,7 +205,8 @@
       "studyType": "Secondary School",
       "startDate": "1994-07-05",
       "endDate": "1999-12-20",
-      "gpa": ""
+      "gpa": "",
+      "courses": []
     },
     {
       "institution": "St. Paul's School (British)",
@@ -185,9 +214,11 @@
       "studyType": "Primary School",
       "startDate": "1985-01-15",
       "endDate": "1994-05-31",
-      "gpa": ""
+      "gpa": "",
+      "courses": []
     }
   ],
+  "awards": [],
   "publications": [
     {
       "name": "Portraits of India: the scenes, the people, the beauty",
@@ -202,12 +233,14 @@
       "name": "Web Development",
       "level": "Master",
       "keywords": [
+        "Ruby on Rails",
         "HTML5",
         "CSS3",
         "SASS",
         "LESS",
         "Javascript",
         "Django",
+        "React",
         "jQuery",
         "Meteor",
         "Bootstrap",
@@ -233,24 +266,23 @@
     },
     {
       "name": "Other Skills",
-      "level": "",
+      "level": "Master",
       "keywords": [
-        "UNIX",
-        "Microsoft Office",
-        "Photoshop",
-        "Illustrator",
-        "Indesign",
-        "Flash",
-        "Acrobat",
-        "Sketch",
-        "QuarkXpress",
-        "Coda",
-        "Sublime Text",
-        "CodeKit",
-        "TypeKit",
-        "Transmit",
+        "Adobe Illustrator",
+        "Adobe Indesign",
+        "Adobe Lightroom",
+        "Adobe Photoshop",
         "Apple Aperture",
-        "Adobe Lightroom"
+        "Bash/ZSH",
+        "CodeKit",
+        "Microsoft Office",
+        "QuarkXpress",
+        "Sketch",
+        "Sublime Text",
+        "Transmit",
+        "TypeKit",
+        "UNIX",
+        "VIM"
       ]
     }
   ],
@@ -261,7 +293,7 @@
     },
     {
       "language": "Portuguese",
-      "fluency": "Fluent (Second Language)"
+      "fluency": "Native speaker"
     },
     {
       "language": "Spanish",
@@ -270,10 +302,18 @@
   ],
   "interests": [
     {
-      "name": "",
+      "name": "Photography",
       "keywords": [
-        "",
-        ""
+        "Film photography",
+        "Street photography"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Rock climbing",
+        "Mountaineering",
+        "Hiking"
       ]
     }
   ],
