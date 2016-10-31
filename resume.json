@@ -26,7 +26,7 @@
         "url": "https://uk.linkedin.com/in/wrightwilliam"
       }
     ]
-},
+  },
   "work": [
     {
       "company": "Clazzoo.com",
@@ -266,25 +266,23 @@
     },
     {
       "name": "Other Skills",
-      "level": "",
+      "level": "Master",
       "keywords": [
-        "UNIX",
-        "VIM",
-        "Microsoft Office",
-        "Photoshop",
-        "Illustrator",
-        "Indesign",
-        "Flash",
-        "Acrobat",
-        "Sketch",
-        "QuarkXpress",
-        "Coda",
-        "Sublime Text",
-        "CodeKit",
-        "TypeKit",
-        "Transmit",
+        "Adobe Illustrator",
+        "Adobe Indesign",
+        "Adobe Lightroom",
+        "Adobe Photoshop",
         "Apple Aperture",
-        "Adobe Lightroom"
+        "Bash/ZSH",
+        "CodeKit",
+        "Microsoft Office",
+        "QuarkXpress",
+        "Sketch",
+        "Sublime Text",
+        "Transmit",
+        "TypeKit",
+        "UNIX",
+        "VIM"
       ]
     }
   ],
@@ -295,7 +293,7 @@
     },
     {
       "language": "Portuguese",
-      "fluency": "Fluent (Second Language)"
+      "fluency": "Native speaker"
     },
     {
       "language": "Spanish",
@@ -304,10 +302,18 @@
   ],
   "interests": [
     {
-      "name": "",
+      "name": "Photography",
       "keywords": [
-        "",
-        ""
+        "Film photography",
+        "Street photography"
+      ]
+    },
+    {
+      "name": "Outdoors",
+      "keywords": [
+        "Rock climbing",
+        "Mountaineering",
+        "Hiking"
       ]
     }
   ],
