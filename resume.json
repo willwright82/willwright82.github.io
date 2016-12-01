@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Will Wright",
-    "label": "UI Developer & Designer",
+    "label": "Front End Developer & Designer",
     "picture": "http://pixel.wright.is/public/img/will.png",
     "email": "will@wright.is",
     "phone": "+44 (0)7922 774469",
     "website": "http://pixel.wright.is",
-    "summary": "Highly creative Front End UI Developer, with a background in graphic design. With over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
+    "summary": "Edinburgh-based Front End Developer, with a background in graphic design. With over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
     "location": {
       "address": "27 Brighouse Park Cross",
       "postalCode": "EH4 6GZ",
@@ -34,9 +34,9 @@
       "website": "www.clazzoo.com",
       "startDate": "2016-03-01",
       "endDate": "",
-      "summary": "Clazzoo's mission is to create an effortless way for anyone to run, discover and join recurring activities and classes, right on their doorstep.",
+      "summary": "Clazzoo is a cloud based, online booking and business management software system for providers of offline classes.",
       "highlights": [
-        "Responsible for the build, design implementation and maintenance of the company's web app based on Ruby on Rails, including customer facing interface, provider's dashboard and admin environment."
+        "Responsible for the build, design implementation and maintenance of the company's mobile-first web app based on Ruby on Rails, including customer facing interface, provider's dashboard and admin environment."
       ]
     },
     {
@@ -45,7 +45,7 @@
       "website": "www.flavourly.com",
       "startDate": "2014-10-01",
       "endDate": "2016-02-29",
-      "summary": "As recently featured on the BBC's Dragons Den where we received 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from the nations best independent suppliers via our subscription sampling service. Each month we to match our customers to the most mouth-watering products and deliver them direct to their desk or door! Our online marketplace then makes it super easy to order more of your new favourite products!",
+      "summary": "As recently featured on the BBC's Dragons Den, receiving 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from independent suppliers via a subscription sampling service. Each month they to match their customers to mouth-watering products and deliver them direct to their desk or door! An online marketplace then makes it super easy to order more of their new favourite products.",
       "highlights": [
         "Redesign and responsive development (HTML, CSS, Javascript, jQuery & Django) of the company's new mobile-first website and eCommerce BrewStore, all of this with usability and a quality user experience as a main focus.",
         "Design of all printed media such as brochures, flyers, promotional materials, packaging and more."
@@ -231,14 +231,13 @@
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "",
       "keywords": [
+        "Ruby",
         "Ruby on Rails",
-        "HTML5",
-        "CSS3",
-        "SASS",
-        "LESS",
         "Javascript",
+        "HTML5",
+        "CSS3/SASS",
         "Django",
         "React",
         "jQuery",
@@ -251,7 +250,7 @@
     },
     {
       "name": "Digital & Graphic Design",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Art & Creative Direction",
         "Responsive Design",
@@ -266,7 +265,7 @@
     },
     {
       "name": "Other Skills",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Adobe Illustrator",
         "Adobe Indesign",
@@ -311,6 +310,7 @@
     {
       "name": "Outdoors",
       "keywords": [
+        "Bouldering",
         "Rock climbing",
         "Mountaineering",
         "Hiking"
