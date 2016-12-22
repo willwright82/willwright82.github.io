@@ -5,7 +5,7 @@ categories:
 - code
 ---
 
-As you may have seen in my [about]({{ site.baseurl }}about/) page, I'm a fan of [SublimeText](http://www.sublimetext.com/3) and when using Javascript, it's handy to have a test console.
+When coding in Javascript while using [SublimeText](http://www.sublimetext.com/3), it's handy to have a test console.
 
 Usually this would be done in Dev Tools' console, but you can also create a simple Node.js build system and get results without having to leave Sublime.
 
