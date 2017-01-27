@@ -7,8 +7,6 @@ categories:
 
 <p class="text-center">
     <img class="img-responsive center" src="https://nodeschool.io/images/schoolhouse.svg" width="350" alt="Nodeschool">
-    <br>
-    <h3>Nodeschool</h3>
 </p>
 
 [Nodeschool](https://nodeschool.io/) offers open source workshops that teach web software skills, which can be taken at workshops hosted worldwide (usually free) or as NPM packages which are lesson modules you run on your computer.
