@@ -117,7 +117,7 @@
     },
     {
       "company": "Apple UK",
-      "position": "Mac Specialist / Creative",
+      "position": "Creative Pro",
       "website": "www.apple.com/uk",
       "startDate": "2007-03-01",
       "endDate": "2007-12-21",
@@ -130,7 +130,7 @@
     {
       "company": "WG Communication",
       "position": "Art Director",
-      "website": "",
+      "website": "www.wg.com.br",
       "startDate": "2004-12-01",
       "endDate": "2007-01-15",
       "summary": "A medium-sized advertising agency with high-profile clients, in the areas of trading, food and beverages, and publishing.",
@@ -152,9 +152,9 @@
     {
       "company": "DF Systems (IBM)",
       "position": "Software Development Intern",
-      "website": "",
+      "website": "www.3e.com.br",
       "startDate": "2001-08-01",
-      "endDate": "2002-11-31",
+      "endDate": "2002-11-30",
       "summary": "IBM in-house systems development for distance learning platforms.",
       "highlights": [
         "Created web-based animations for distance learning programs for the University of São Paulo."
