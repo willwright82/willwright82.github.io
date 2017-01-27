@@ -23,4 +23,6 @@ and then:
 
 `learnyounode`
 
+### Keep Going
+
 Check out all the "Workshopper" modules over at [nodeschool.io](https://nodeschool.io/).
