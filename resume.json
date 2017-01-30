@@ -183,8 +183,8 @@
     },
     {
       "institution": "Mackenzie University",
-      "area": "Communication and Arts",
-      "studyType": "Bachelor of Arts in Advertising and Marketing",
+      "area": "Advertising and Marketing",
+      "studyType": "Bachelor of Arts",
       "startDate": "2003-06-05",
       "endDate": "2006-12-15",
       "gpa": "4.0",
@@ -192,8 +192,8 @@
     },
     {
       "institution": "Mackenzie University",
-      "area": "Engineering",
-      "studyType": "Undergraduate studies in Electronic Engineering",
+      "area": "Electronic Engineering",
+      "studyType": "Undergraduate studies",
       "startDate": "2000-01-05",
       "endDate": "2003-12-15",
       "gpa": "",
