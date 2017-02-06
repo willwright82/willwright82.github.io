@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Will Wright",
-    "label": "Front End Developer & Designer",
+    "label": "Front End Engineer & Designer",
     "picture": "http://pixel.wright.is/public/img/will.png",
     "email": "will@wright.is",
     "phone": "+44 (0)7922 774469",
     "website": "http://pixel.wright.is",
-    "summary": "Edinburgh-based Front End Developer, with a background in graphic design. With over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
+    "summary": "Edinburgh-based Front End Engineer, with a background in graphic design, with over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,11 +30,11 @@
   "work": [
     {
       "company": "Clazzoo.com",
-      "position": "Front End Lead",
+      "position": "Front End Lead Engineer",
       "website": "www.clazzoo.com",
       "startDate": "2016-03-01",
       "endDate": "",
-      "summary": "Clazzoo is a cloud based, online booking and business management software system for providers of offline classes.",
+      "summary": "Clazzoo is a cloud based, online booking and business management software as a service system for providers of offline recurring classes.",
       "highlights": [
         "Responsible for the build, design implementation and maintenance of the company's mobile-first web app based on Ruby on Rails, including customer facing interface, provider's dashboard and admin environment."
       ]
