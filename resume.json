@@ -161,7 +161,18 @@
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [{
+    "organization": "Code Your Future",
+    "position": "Mentor",
+    "website": "https://codeyourfuture.co",
+    "startDate": "2017-02-01",
+    "endDate": "",
+    "summary": "Code Your Future is the UK's only non-profit organisation supporting refugees with the dream of becoming developers. Students participate in a 6-month programme where, closely support by experienced developers, they learn front and back end development, project-management and working culture, making them full-stack developers as they finish the course.",
+    "highlights": [
+      "Helping establish the Edinburgh operation following the successful launch of the London based programme.",
+      "Supporting the students by giving them feedback on their work and by helping them with problems they might encounter in their assignments."
+    ]
+  }],
   "education": [
     {
       "institution": "FIA Business School",
