@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Will Wright",
-    "label": "Front End Developer & Designer",
+    "label": "Front End Engineer & Designer",
     "picture": "http://pixel.wright.is/public/img/will.png",
     "email": "will@wright.is",
     "phone": "+44 (0)7922 774469",
     "website": "http://pixel.wright.is",
-    "summary": "Edinburgh-based Front End Developer, with a background in graphic design. With over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
+    "summary": "Edinburgh-based Front End Engineer, with a background in graphic design, with over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,11 +30,11 @@
   "work": [
     {
       "company": "Clazzoo.com",
-      "position": "Front End Lead",
+      "position": "Front End Lead Engineer",
       "website": "www.clazzoo.com",
       "startDate": "2016-03-01",
       "endDate": "",
-      "summary": "Clazzoo is a cloud based, online booking and business management software system for providers of offline classes.",
+      "summary": "Clazzoo is a cloud based, online booking and business management software as a service system for providers of offline recurring classes.",
       "highlights": [
         "Responsible for the build, design implementation and maintenance of the company's mobile-first web app based on Ruby on Rails, including customer facing interface, provider's dashboard and admin environment."
       ]
@@ -117,7 +117,7 @@
     },
     {
       "company": "Apple UK",
-      "position": "Mac Specialist / Creative",
+      "position": "Creative Pro",
       "website": "www.apple.com/uk",
       "startDate": "2007-03-01",
       "endDate": "2007-12-21",
@@ -130,7 +130,7 @@
     {
       "company": "WG Communication",
       "position": "Art Director",
-      "website": "",
+      "website": "www.wg.com.br",
       "startDate": "2004-12-01",
       "endDate": "2007-01-15",
       "summary": "A medium-sized advertising agency with high-profile clients, in the areas of trading, food and beverages, and publishing.",
@@ -152,16 +152,27 @@
     {
       "company": "DF Systems (IBM)",
       "position": "Software Development Intern",
-      "website": "",
+      "website": "www.3e.com.br",
       "startDate": "2001-08-01",
-      "endDate": "2002-11-31",
+      "endDate": "2002-11-30",
       "summary": "IBM in-house systems development for distance learning platforms.",
       "highlights": [
         "Created web-based animations for distance learning programs for the University of São Paulo."
       ]
     }
   ],
-  "volunteer": [],
+  "volunteer": [{
+    "organization": "Code Your Future",
+    "position": "Mentor",
+    "website": "https://codeyourfuture.co",
+    "startDate": "2017-02-01",
+    "endDate": "",
+    "summary": "Code Your Future is the UK's only non-profit organisation supporting refugees with the dream of becoming developers. Students participate in a 6-month programme where, closely support by experienced developers, they learn front and back end development, project-management and working culture, making them full-stack developers as they finish the course.",
+    "highlights": [
+      "Helping establish the Edinburgh operation following the successful launch of the London based programme.",
+      "Supporting the students by giving them feedback on their work and by helping them with problems they might encounter in their assignments."
+    ]
+  }],
   "education": [
     {
       "institution": "FIA Business School",
@@ -183,8 +194,8 @@
     },
     {
       "institution": "Mackenzie University",
-      "area": "Communication and Arts",
-      "studyType": "Bachelor of Arts in Advertising and Marketing",
+      "area": "Advertising and Marketing",
+      "studyType": "Bachelor of Arts",
       "startDate": "2003-06-05",
       "endDate": "2006-12-15",
       "gpa": "4.0",
@@ -192,8 +203,8 @@
     },
     {
       "institution": "Mackenzie University",
-      "area": "Engineering",
-      "studyType": "Undergraduate studies in Electronic Engineering",
+      "area": "Electronic Engineering",
+      "studyType": "Undergraduate studies",
       "startDate": "2000-01-05",
       "endDate": "2003-12-15",
       "gpa": "",
@@ -281,7 +292,7 @@
         "Transmit",
         "TypeKit",
         "UNIX",
-        "VIM"
+        "Vim"
       ]
     }
   ],

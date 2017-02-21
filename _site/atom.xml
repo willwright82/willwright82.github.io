@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>pixelwright</title>
- <link href="http://localhost:4000/atom.xml" rel="self"/>
- <link href="http://localhost:4000/"/>
- <updated>2016-12-22T15:58:28+00:00</updated>
- <id>http://localhost:4000</id>
+ <link href="http://pixel.wright.is/atom.xml" rel="self"/>
+ <link href="http://pixel.wright.is/"/>
+ <updated>2017-02-21T15:13:37+00:00</updated>
+ <id>http://pixel.wright.is</id>
  <author>
    <name>Will Wright</name>
    <email>will@wright.is</email>
@@ -13,10 +13,60 @@
 
  
  <entry>
+   <title>CodeYourFuture</title>
+   <link href="http://pixel.wright.is/links/thoughts/2017/02/20/codeyourfuture/"/>
+   <updated>2017-02-20T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/links/thoughts/2017/02/20/codeyourfuture</id>
+   <content type="html">&lt;p class=&quot;text-center&quot;&gt;
+&lt;img class=&quot;img-responsive center&quot; src=&quot;https://codeyourfuture.co/img/ico/cyf_brand.png&quot; width=&quot;350&quot; alt=&quot;&amp;lt;Code&amp;gt;YourFuture&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;I’m very proud to have joined as a Mentor while helping establish the Edinburgh operation for &lt;a href=&quot;http://codeyourfuture.co/&quot;&gt;CodeYourFuture&lt;/a&gt; – a non-profit organisation supporting refugees with the dream of becoming developers.&lt;/p&gt;
+
+&lt;p&gt;Our students participate in a 6-month programme where, closely supported by experienced developers, they learn front and back end development, project-management and working culture, making them full-stack developers as they finish the course.&lt;/p&gt;
+
+&lt;p&gt;The programme is closely related to &lt;a href=&quot;http://hackyourfuture.net/&quot;&gt;HackYourFuture&lt;/a&gt; which was created in Amsterdam in 2015:&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/qFqHXZio6ZM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Everything is completely free, no previous experience is required and we offer all the material and equipment. All the students need to bring is their desire to learn.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Nodeschool</title>
+   <link href="http://pixel.wright.is/links/2017/01/27/nodeschool/"/>
+   <updated>2017-01-27T00:00:00+00:00</updated>
+   <id>http://pixel.wright.is/links/2017/01/27/nodeschool</id>
+   <content type="html">&lt;p class=&quot;text-center&quot;&gt;
+    &lt;img class=&quot;img-responsive center&quot; src=&quot;https://nodeschool.io/images/schoolhouse.svg&quot; width=&quot;350&quot; alt=&quot;Nodeschool&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodeschool.io/&quot;&gt;Nodeschool&lt;/a&gt; offers open source workshops that teach web software skills, which can be taken at workshops hosted worldwide (usually free) or as NPM packages which are lesson modules you run on your computer.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-going&quot;&gt;Get Going&lt;/h3&gt;
+
+&lt;p&gt;You’ll only need &lt;a href=&quot;http://nodejs.org/&quot;&gt;Node.js&lt;/a&gt; and a Text editor to get started.&lt;/p&gt;
+
+&lt;p&gt;So for the Learn You Node module, simply enter:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g learnyounode&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;and then:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;learnyounode&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-going&quot;&gt;Keep Going&lt;/h3&gt;
+
+&lt;p&gt;Check out all the “Workshopper” modules over at &lt;a href=&quot;https://nodeschool.io/&quot;&gt;nodeschool.io&lt;/a&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Creating an embeddable widget in Rails 4</title>
-   <link href="http://localhost:4000/code/2016/12/22/rails-js-widget/"/>
+   <link href="http://pixel.wright.is/code/2016/12/22/rails-js-widget/"/>
    <updated>2016-12-22T00:00:00+00:00</updated>
-   <id>http://localhost:4000/code/2016/12/22/rails-js-widget</id>
+   <id>http://pixel.wright.is/code/2016/12/22/rails-js-widget</id>
    <content type="html">&lt;p&gt;If you wish to allow some of your content to be embedded into other websites, you can create a JS script that will enable that quite easily using Rails. Sounds good? Let’s go!&lt;/p&gt;
 
 &lt;p&gt;First, let’s start by adding an endpoint in our &lt;code class=&quot;highlighter-rouge&quot;&gt;routes&lt;/code&gt; file:&lt;/p&gt;
@@ -144,9 +194,9 @@ accesed by the client website to load our embedded content:&lt;/p&gt;
  
  <entry>
    <title>Bulma.io</title>
-   <link href="http://localhost:4000/links/2016/02/07/bulma/"/>
+   <link href="http://pixel.wright.is/links/2016/02/07/bulma/"/>
    <updated>2016-02-07T00:00:00+00:00</updated>
-   <id>http://localhost:4000/links/2016/02/07/bulma</id>
+   <id>http://pixel.wright.is/links/2016/02/07/bulma</id>
    <content type="html">&lt;p class=&quot;text-center&quot;&gt;
     &lt;img class=&quot;img-responsive center&quot; src=&quot;http://bulma.io/images/bulma-banner.png&quot; width=&quot;350&quot; alt=&quot;Bulma: a Flexbox CSS framework&quot; /&gt;
 &lt;/p&gt;
@@ -251,9 +301,9 @@ accesed by the client website to load our embedded content:&lt;/p&gt;
  
  <entry>
    <title>Random Hex colours using Javascript</title>
-   <link href="http://localhost:4000/code/2015/08/15/randomhexjs/"/>
+   <link href="http://pixel.wright.is/code/2015/08/15/randomhexjs/"/>
    <updated>2015-08-15T00:00:00+01:00</updated>
-   <id>http://localhost:4000/code/2015/08/15/randomhexjs</id>
+   <id>http://pixel.wright.is/code/2015/08/15/randomhexjs</id>
    <content type="html">&lt;p&gt;Here is a quick and short way to generate random #Hex colours using Javascript:&lt;/p&gt;
 
 &lt;h3 id=&quot;code&quot;&gt;Code&lt;/h3&gt;
@@ -272,9 +322,9 @@ accesed by the client website to load our embedded content:&lt;/p&gt;
  
  <entry>
    <title>Django maths using widthratio</title>
-   <link href="http://localhost:4000/code/2015/06/27/django-widthratio-maths/"/>
+   <link href="http://pixel.wright.is/code/2015/06/27/django-widthratio-maths/"/>
    <updated>2015-06-27T00:00:00+01:00</updated>
-   <id>http://localhost:4000/code/2015/06/27/django-widthratio-maths</id>
+   <id>http://pixel.wright.is/code/2015/06/27/django-widthratio-maths</id>
    <content type="html">&lt;p&gt;I use a lot of Django templating and one of my pet peeves is it’s inability to handle simple maths. Seriously, why?&lt;/p&gt;
 
 &lt;p&gt;Sure, you can build your own functions for this, but in my opinion, maths is something that should be built-in. Yeah, you can &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt;, but that’s about it.&lt;/p&gt;
@@ -299,9 +349,9 @@ accesed by the client website to load our embedded content:&lt;/p&gt;
  
  <entry>
    <title>Javascript build using node.js</title>
-   <link href="http://localhost:4000/code/2015/04/25/nodejs-sublimetext-build/"/>
+   <link href="http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build/"/>
    <updated>2015-04-25T00:00:00+01:00</updated>
-   <id>http://localhost:4000/code/2015/04/25/nodejs-sublimetext-build</id>
+   <id>http://pixel.wright.is/code/2015/04/25/nodejs-sublimetext-build</id>
    <content type="html">&lt;p&gt;When coding in Javascript while using &lt;a href=&quot;http://www.sublimetext.com/3&quot;&gt;SublimeText&lt;/a&gt;, it’s handy to have a test console.&lt;/p&gt;
 
 &lt;p&gt;Usually this would be done in Dev Tools’ console, but you can also create a simple Node.js build system and get results without having to leave Sublime.&lt;/p&gt;
@@ -347,9 +397,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Hi There!</title>
-   <link href="http://localhost:4000/thoughts/2015/04/11/hello-world/"/>
+   <link href="http://pixel.wright.is/thoughts/2015/04/11/hello-world/"/>
    <updated>2015-04-11T00:00:00+01:00</updated>
-   <id>http://localhost:4000/thoughts/2015/04/11/hello-world</id>
+   <id>http://pixel.wright.is/thoughts/2015/04/11/hello-world</id>
    <content type="html">&lt;p&gt;This is my first post on this new online journal. I’m not sure yet what all this will be about, so I’ll just let it take it’s own direction.&lt;/p&gt;
 
 &lt;p&gt;I’ve always written on paper journals in the past, but I’ve been feeling other people might benefit from and elaborate further on my thoughts, ideas and discoveries. That’s why I’ve decided to give this a try.&lt;/p&gt;
@@ -373,9 +423,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Flavourly.com</title>
-   <link href="http://localhost:4000/projects/2014/12/15/flavourly/"/>
+   <link href="http://pixel.wright.is/projects/2014/12/15/flavourly/"/>
    <updated>2014-12-15T00:00:00+00:00</updated>
-   <id>http://localhost:4000/projects/2014/12/15/flavourly</id>
+   <id>http://pixel.wright.is/projects/2014/12/15/flavourly</id>
    <content type="html">&lt;p&gt;Flavourly is a food &amp;amp; craft beer discovery service which helps consumers discover amazing products monthly from small independent suppliers, while providing a viable sales channel for suppliers to both grow their business and launch new products.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/flavourly3.jpg&quot; alt=&quot;Flavourly.com&quot; /&gt;&lt;/p&gt;
@@ -392,9 +442,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Life Insurance Quotes UK</title>
-   <link href="http://localhost:4000/projects/2014/08/28/lifeinsurancequotes/"/>
+   <link href="http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes/"/>
    <updated>2014-08-28T00:00:00+01:00</updated>
-   <id>http://localhost:4000/projects/2014/08/28/lifeinsurancequotes</id>
+   <id>http://pixel.wright.is/projects/2014/08/28/lifeinsurancequotes</id>
    <content type="html">&lt;p&gt;A website dedicated to finding the best life insurance deals on the market. Life Insurance Quotes UK compares Life Insurance, Mortgage Life Insurance, Family Income Benefit, Critical Illness Cover and Whole of Life protection policies.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/liq3.jpg&quot; alt=&quot;Life Insurance Quotes UK&quot; /&gt;&lt;/p&gt;
@@ -411,9 +461,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Simple Financial Associates</title>
-   <link href="http://localhost:4000/projects/2014/08/03/simplefa/"/>
+   <link href="http://pixel.wright.is/projects/2014/08/03/simplefa/"/>
    <updated>2014-08-03T00:00:00+01:00</updated>
-   <id>http://localhost:4000/projects/2014/08/03/simplefa</id>
+   <id>http://pixel.wright.is/projects/2014/08/03/simplefa</id>
    <content type="html">&lt;p&gt;Client-facing landing page for the debt solutions branch of the Glasgow based Simple Financial group offering bespoke financial services and guidance to the general public.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/simplefa3.jpg&quot; alt=&quot;Simple Financial Associates&quot; /&gt;&lt;/p&gt;
@@ -432,9 +482,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Croma Marketing Solutions</title>
-   <link href="http://localhost:4000/projects/2013/11/23/croma/"/>
+   <link href="http://pixel.wright.is/projects/2013/11/23/croma/"/>
    <updated>2013-11-23T00:00:00+00:00</updated>
-   <id>http://localhost:4000/projects/2013/11/23/croma</id>
+   <id>http://pixel.wright.is/projects/2013/11/23/croma</id>
    <content type="html">&lt;p&gt;A consultancy in strategic planning, marketing management and innovation. They believe in transformation and contribute to break patterns, integrate efforts, streamline operations and empower leaders to drive change.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/croma3.jpg&quot; alt=&quot;Croma&quot; /&gt;&lt;/p&gt;
@@ -453,9 +503,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Fit In Company</title>
-   <link href="http://localhost:4000/projects/2013/09/18/fitincompany/"/>
+   <link href="http://pixel.wright.is/projects/2013/09/18/fitincompany/"/>
    <updated>2013-09-18T00:00:00+01:00</updated>
-   <id>http://localhost:4000/projects/2013/09/18/fitincompany</id>
+   <id>http://pixel.wright.is/projects/2013/09/18/fitincompany</id>
    <content type="html">&lt;p&gt;Their goal is to make it affordable for any organisation in Brazil, to have efficient health programs and quality of life at the workplace, that generate full satisfaction and value for their customers, employees, investors and partners.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/fitincompany.jpg&quot; alt=&quot;Fit In Company&quot; /&gt;&lt;/p&gt;
@@ -472,9 +522,9 @@ Paste this replacing everything in the new tab that has opened:&lt;/p&gt;
  
  <entry>
    <title>Plastamp</title>
-   <link href="http://localhost:4000/projects/2013/06/09/plastamp/"/>
+   <link href="http://pixel.wright.is/projects/2013/06/09/plastamp/"/>
    <updated>2013-06-09T00:00:00+01:00</updated>
-   <id>http://localhost:4000/projects/2013/06/09/plastamp</id>
+   <id>http://pixel.wright.is/projects/2013/06/09/plastamp</id>
    <content type="html">&lt;p&gt;Solutions provider for the plastic container market with two highly technological factories offering products to some of the largest food and beverages, cosmetics, hygiene, cleaning supplies and plastic container companies in Brazil.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/public/img/projects/plastamp.jpg&quot; alt=&quot;Plastamp&quot; /&gt;&lt;/p&gt;
