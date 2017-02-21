@@ -16,6 +16,6 @@ Our students participate in a 6-month programme where, closely supported by expe
 
 The programme is closely related to [HackYourFuture](http://hackyourfuture.net/) which was created in Amsterdam in 2015:
 
-<iframe width="auto" height="auto" src="https://www.youtube.com/embed/qFqHXZio6ZM" frameborder="0" allowfullscreen></iframe>
+<div class='embed-container'><iframe src='https://www.youtube.com/embed/qFqHXZio6ZM' frameborder='0' allowfullscreen></iframe></div>
 
-Everything is completely free, no previous experience is required and we offer all the material and equipment. All the students need to bring is their desire to learn.
+<p>Everything is completely free, no previous experience is required and we offer all the material and equipment. All the students need to bring is their desire to learn.</p>
