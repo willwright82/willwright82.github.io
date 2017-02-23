@@ -12,7 +12,7 @@ I've always written on paper journals in the past, but I've been feeling other p
 
 ## What you'll find here
 
-Writing is the way I've found to organise my thoughts and easily reference back to them in the future. But I won't be *just* writing you'll find here. I'll also post:
+Writing is the way I've found to organise my thoughts and easily reference back to them in the future. But it won't be *just* writing you'll find here. I'll also post:
 
 - My thoughts on development, design and technology
 - Code snippets I find to be useful to others
