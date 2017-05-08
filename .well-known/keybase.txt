@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/willwright
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://pixel.wright.is
+  * I am willwright (https://keybase.io/willwright) on keybase.
+  * I have a public key ASA_Wk-qEMemTch9szNvTYHFvO0MA8fKsK437ScrSBHI2go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01203f5a4faa10c7a64dc87db3336f4d81c5bced0c03c7cab0ae37ed272b4811c8da0a",
+            "host": "keybase.io",
+            "kid": "01203f5a4faa10c7a64dc87db3336f4d81c5bced0c03c7cab0ae37ed272b4811c8da0a",
+            "uid": "61324ce52401b9012873ce25bd3e7919",
+            "username": "willwright"
+        },
+        "service": {
+            "hostname": "pixel.wright.is",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.22"
+    },
+    "ctime": 1494239864,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1494239841,
+        "hash": "0c5533c0fc86d384c7c0b10fc0337cfb4a0c0fd285c1e2569d8ce6c8762b1e3bf24142d87203c031622aa071a9c922a4dac4687e3f7ca1b0a2e11f9106b1c98e",
+        "seqno": 1058232
+    },
+    "prev": "1ff06d09a7430baa56ddaff55dff1ca079625e04b18bfbb2cd06eaf9dc75551c",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgP1pPqhDHpk3IfbMzb02BxbztDAPHyrCuN+0nK0gRyNoKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwM2Y1YTRmYWExMGM3YTY0ZGM4N2RiMzMzNmY0ZDgxYzViY2VkMGMwM2M3Y2FiMGFlMzdlZDI3MmI0ODExYzhkYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwM2Y1YTRmYWExMGM3YTY0ZGM4N2RiMzMzNmY0ZDgxYzViY2VkMGMwM2M3Y2FiMGFlMzdlZDI3MmI0ODExYzhkYTBhIiwidWlkIjoiNjEzMjRjZTUyNDAxYjkwMTI4NzNjZTI1YmQzZTc5MTkiLCJ1c2VybmFtZSI6IndpbGx3cmlnaHQifSwic2VydmljZSI6eyJob3N0bmFtZSI6InBpeGVsLndyaWdodC5pcyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMjIifSwiY3RpbWUiOjE0OTQyMzk4NjQsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ5NDIzOTg0MSwiaGFzaCI6IjBjNTUzM2MwZmM4NmQzODRjN2MwYjEwZmMwMzM3Y2ZiNGEwYzBmZDI4NWMxZTI1NjlkOGNlNmM4NzYyYjFlM2JmMjQxNDJkODcyMDNjMDMxNjIyYWEwNzFhOWM5MjJhNGRhYzQ2ODdlM2Y3Y2ExYjBhMmUxMWY5MTA2YjFjOThlIiwic2Vxbm8iOjEwNTgyMzJ9LCJwcmV2IjoiMWZmMDZkMDlhNzQzMGJhYTU2ZGRhZmY1NWRmZjFjYTA3OTYyNWUwNGIxOGJmYmIyY2QwNmVhZjlkYzc1NTUxYyIsInNlcW5vIjoxMiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBMmNGhuWxfgWBhT4Z663V1Bl1aR7D/DEzWmDOqD1Mb0NVh/Ng0oweS18kURFRB1Yqth+PDq9dPz/X3tRyfsnIFqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgJ6+6bkAKysWqvQIOmwQi4l6OJtuShH+zv+M2pjRGZ8qjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/willwright
+
+==================================================================
