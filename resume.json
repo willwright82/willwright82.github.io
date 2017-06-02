@@ -43,24 +43,12 @@
       "company": "Flavourly.com",
       "position": "UI Developer & Designer",
       "website": "www.flavourly.com",
-      "startDate": "2014-10-01",
+      "startDate": "2014-07-01",
       "endDate": "2016-02-29",
       "summary": "As recently featured on the BBC's Dragons Den, receiving 4/5 offers of investment, Flavourly helps consumers discover the best, hard to find, gourmet food and craft beer from independent suppliers via a subscription sampling service. Each month they to match their customers to mouth-watering products and deliver them direct to their desk or door! An online marketplace then makes it super easy to order more of their new favourite products.",
       "highlights": [
         "Redesign and responsive development (HTML, CSS, Javascript, jQuery & Django) of the company's new mobile-first website and eCommerce BrewStore, all of this with usability and a quality user experience as a main focus.",
         "Design of all printed media such as brochures, flyers, promotional materials, packaging and more."
-      ]
-    },
-    {
-      "company": "Simple Financial",
-      "position": "Web Development Contract",
-      "website": "www.simplefs.com",
-      "startDate": "2014-07-01",
-      "endDate": "2014-09-30",
-      "summary": "Simple Financial is a Glasgow based group of 4 companies offering bespoke financial services and guidance to the public.",
-      "highlights": [
-        "3 month Web Development Contract, being responsible for the redesign and responsive development (HTML, CSS, jQuery) of some of the company's new client-facing websites.",
-        "Built a Will Writing web app in Responsive HTML (Bootstrap), CSS, jQuery and AngularJS."
       ]
     },
     {
@@ -162,12 +150,12 @@
     }
   ],
   "volunteer": [{
-    "organization": "Code Your Future",
+    "organization": "CodeYourFuture",
     "position": "Mentor",
     "website": "https://codeyourfuture.co",
     "startDate": "2017-02-01",
     "endDate": "",
-    "summary": "Code Your Future is the UK's only non-profit organisation supporting refugees with the dream of becoming developers. Students participate in a 6-month programme where, closely support by experienced developers, they learn front and back end development, project-management and working culture, making them full-stack developers as they finish the course.",
+    "summary": "CodeYourFuture is the UK's only non-profit organisation supporting refugees with the dream of becoming developers. Students participate in a 6-month programme where, closely support by experienced developers, they learn front and back end development, project-management and working culture, making them full-stack developers as they finish the course.",
     "highlights": [
       "Helping establish the Edinburgh operation following the successful launch of the London based programme.",
       "Supporting the students by giving them feedback on their work and by helping them with problems they might encounter in their assignments."
