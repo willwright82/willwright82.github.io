@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Will Wright",
-    "label": "Front End Engineer & Designer",
+    "label": "Senior Software Engineer",
     "picture": "http://pixel.wright.is/public/img/will.png",
     "email": "will@wright.is",
     "phone": "+44 (0)7922 774469",
     "website": "http://pixel.wright.is",
-    "summary": "Edinburgh-based Front End Engineer, with a background in graphic design, with over 15 years of experience, having acquired great knowledge and expertise working alongside award-winning professionals crafting innovative solutions that balance strategy, technology and usability.",
+    "summary": "Will Wright is a co-founder at Kindaba where he works to enable families to communicate and share valuable moments privately with the people they love, wherever they are. After working for more than 18 years in design and web agencies as well as several early-stage startups, Will knows what it takes to create a truly engaging experience—and it's not about using the latest Javascript framework of the week. It's how well you connect with the people using your product and the work you do to provide them with a compelling and intuitive solution.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,10 +29,22 @@
   },
   "work": [
     {
+      "company": "Kindaba.com",
+      "position": "Co-founder and Director of Family Happiness & User Experience",
+      "website": "www.kindaba.com",
+      "startDate": "2017-06-15",
+      "endDate": "",
+      "summary": "Kindaba’s mission is to keep families connected. We are passionate about building an alternative, safe, and private space where all family members can feel confident and engaged sharing things with each other.",
+      "highlights": [
+        "Responsible for ensuring we provide users the best possible experience while using Kindaba with their families."
+      ]
+    },
+    {
       "company": "Clazzoo.com",
-      "position": "Front End Lead Engineer",
+      "position": "Senior Software Engineer",
       "website": "www.clazzoo.com",
       "startDate": "2016-03-01",
+      "endDate": "2017-06-15",
       "endDate": "",
       "summary": "Clazzoo is a cloud based, online booking and business management software as a service system for providers of offline recurring classes.",
       "highlights": [
@@ -41,7 +53,7 @@
     },
     {
       "company": "Flavourly.com",
-      "position": "UI Developer & Designer",
+      "position": "Front End Engineer & Designer",
       "website": "www.flavourly.com",
       "startDate": "2014-07-01",
       "endDate": "2016-02-29",
