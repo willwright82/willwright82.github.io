@@ -7,7 +7,7 @@ categories:
 ---
 
 <p class="text-center">
-<img class="img-responsive center" src="https://codeyourfuture.co/img/ico/cyf_brand.png" width="350" alt="<Code>YourFuture">
+<img class="img-responsive center" src="https://codeyourfuture.io/wp-content/uploads/2019/03/cyf_brand.png" width="350" alt="<Code>YourFuture">
 </p>
 
 I'm very proud to have joined as a Mentor while helping establish the Edinburgh operation for [CodeYourFuture](http://codeyourfuture.co/) – a non-profit organisation supporting refugees with the dream of becoming developers.
