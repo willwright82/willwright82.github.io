@@ -7,14 +7,13 @@ title: About
     <img height="205" width="205" class="center-block" src="/public/img/will.png" alt="Will Wright">
 </p>
 
-<p class="lead">Currently Co-Founder at <a href="//kindaba.com" target="_blank">Kindaba</a> and Mentor at <a href="//www.codeyourfuture.co" target="_blank">CodeYourFuture</a>. Previously at Clazzoo, Flavourly, Nautillus & Apple. Husband. Dad.</p>
+<p class="lead">Currently Head of UX at <a href="//emailrevenue.com" target="_blank">EmailRevenue</a> and Mentor at <a href="//www.codeyourfuture.co" target="_blank">CodeYourFuture</a>. Previously at Kindaba, Clazzoo, Flavourly, Nautilus & Apple. Husband. Dad.</p>
 
-Will Wright is a Co-Founder at Kindaba where he works to enable families to communicate and share valuable moments privately with the people they love, wherever they are. After spending more than 15 years working in design and web agencies as well as several early-stage startups, Will knows what it takes to create a truly engaging experience---and it's not about using the latest Javascript framework of the week. It's how well you connect with the people using your product and the work you do to provide them with a compelling and intuitive solution.
+Will Wright is the Head of User Experience at EmailRevenue where he works to help businesses grow by improving their return on marketing spend through machine learning based data insights and decision-making. After spending more than 15 years working in design and web agencies as well as several early-stage startups, Will knows what it takes to create a truly engaging experience --- and it's not about using the design trend of the week. It's how well you connect with the people using your product and provide them with a compelling and intuitive solution.
 
-Besides Kindaba, Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys photography, rock-climbing, skateboarding, and spending time with his family.
+Besides EmailRevenue Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys playing tennis, photography, and spending time with his family.
 
 He currently lives in Edinburgh with his wife and two sons.
-
 <hr>
 
 ## Recommendations
