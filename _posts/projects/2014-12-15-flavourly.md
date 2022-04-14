@@ -9,7 +9,7 @@ Flavourly is a food & craft beer discovery service which helps consumers discove
 
 ![Flavourly.com](/public/img/projects/flavourly3.jpg)
 
-A mobile-first HTML5/SASS website and in-house eCommerce "BrewStore", built with scalability, usability and a quality user experience as a main focus.
+A mobile-first HTML5/SASS website and in-house eCommerce "BrewStore", built with scalability, usability and quality user experience as a main focus.
 
 - Client: [**Flavourly.com**](http://www.flavourly.com)
 - Roles: **Digital Design, Front End Development, Photography**
