@@ -7,13 +7,13 @@ title: About
     <img height="205" width="205" class="center-block" src="/public/img/will.png" alt="Will Wright">
 </p>
 
-<p class="lead">Currently Head of UX at <a href="//www.machinelabs.com" target="_blank">Machine Labs</a> and Mentor at <a href="//www.codeyourfuture.co" target="_blank">CodeYourFuture</a>. Previously at Kindaba, Clazzoo, Flavourly, Nautilus & Apple. Husband. Dad.</p>
+<p class="lead">Currently Senior UX Design Engineer at <a href="//www.parsleybox.com" target="_blank">Parsley Box</a> and Mentor at <a href="//www.codeyourfuture.co" target="_blank">CodeYourFuture</a>. Previously at Machine Labs, Kindaba, Clazzoo, Flavourly, Nautilus & Apple. Dad.</p>
 
-Will Wright is the Head of User Experience at Machine Labs where he works to help businesses grow by improving their return on marketing spend through machine learning based data insights and decision-making. After spending more than 15 years working in design and web agencies as well as several early-stage startups, Will knows what it takes to create a truly engaging experience --- and it's not about using the design trend of the week. It's how well you connect with the people using your product and provide them with a compelling and intuitive solution.
+Will Wright is a Senior UX Design Engineer at Parsley Box where he works to enhance the user experience for customers ordering tasty cupboard-stored ready meals delivered straight to their door.  After spending more than 20 years working in design and web agencies as well as several early-stage startups, Will knows what it takes to create a truly engaging experience --- and it's not about using the design trend of the week. It's how well you connect with the people using your product and provide them with a compelling and intuitive solution.
 
-Besides Machine Labs Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys playing tennis, brazilian jiu-jitsu, photography, and spending time with his family.
+Besides Parsley Box Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys playing tennis, brazilian jiu-jitsu, photography, and spending time with his family.
 
-He currently lives in Edinburgh with his wife and two sons.
+He currently lives in Edinburgh with his and two sons.
 <hr>
 
 ## Recommendations
