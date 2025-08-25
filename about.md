@@ -13,7 +13,7 @@ Will Wright is a Senior UX Design Engineer at Parsley Box where he works to enha
 
 Besides Parsley Box Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys playing tennis, brazilian jiu-jitsu, photography, and spending time with his family.
 
-He currently lives in Edinburgh with his and two sons.
+He currently lives in Edinburgh with his two sons.
 <hr>
 
 ## Recommendations
