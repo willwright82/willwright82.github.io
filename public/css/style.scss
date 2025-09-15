@@ -672,3 +672,29 @@ hr {
 .text-right {
   text-align: right;
 }
+
+/* Tags section */
+.tags-section {
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #268bd2;
+    color: #313131;
+    border-radius: 9999px; /* fully rounded */
+    padding: 1rem;
+  }
+
+  .tag h2 {
+    margin: 0;
+    color: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
