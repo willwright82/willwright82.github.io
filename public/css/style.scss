@@ -61,18 +61,24 @@ hr.medium {
  */
 
 .container {
-  max-width: 28rem;
+  max-width: 42rem;
 }
 
-@media (min-width: 38em) {
+@media (min-width: 48em) {
   .container {
-    max-width: 32rem;
+    max-width: 56rem;
   }
 }
 
-@media (min-width: 56em) {
+@media (min-width: 64em) {
   .container {
-    max-width: 38rem;
+    max-width: 64rem;
+  }
+}
+
+@media (min-width: 80em) {
+  .container {
+    max-width: 72rem;
   }
 }
 
