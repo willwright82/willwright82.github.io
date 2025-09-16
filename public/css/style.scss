@@ -98,6 +98,7 @@ hr.medium {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+  margin-inline: 2.2rem;
   color: #505050;
 
   a {
@@ -121,6 +122,12 @@ hr.medium {
     small {
       display: none;
     }
+  }
+}
+
+@media (max-width: 48em) {
+  .masthead-title {
+    text-align: center;
   }
 }
 
@@ -694,7 +701,8 @@ hr {
   .tag {
     display: inline-flex;
     align-items: center;
-    background-color: #268bd2;
+    // background-color: #268bd225;
+    background-color: #DEEEF8;
     color: #313131;
     border-radius: 9999px; /* fully rounded */
     padding: 1rem;
