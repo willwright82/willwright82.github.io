@@ -10,17 +10,17 @@ permalink: /index.html
 
 <section class="tags-section">
   <div class="tags">
-    <div class="tag"><h2>Senior Product Designer</h2></div>
-    <div class="tag"><h2>UX Design Engineer</h2></div>
-    <div class="tag"><h2>B2B | B2C | SaaS</h2></div>
-    <div class="tag"><h2>Based in Edinburgh 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h2></div>
+    <div class="tag"><h4>Senior Product Designer</h4></div>
+    <div class="tag"><h4>UX Design Engineer</h4></div>
+    <div class="tag"><h4>B2B | B2C | SaaS</h4></div>
+    <div class="tag"><h4>Based in Edinburgh 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h4></div>
   </div>
 </section>
 
 <div class="posts archive">
     <!-- WAS: for post in paginator.posts -->
     {% for post in site.posts %}
-		{% unless post.categories contains 'projects' %}
+		{% unless post.categories contains 'old' %}
             <div class="post">
                 <span class="post-date pull-right">{{ post.date | date_to_string }}</span>
                 <h3 class="post-title">
