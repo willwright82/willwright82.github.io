@@ -2,6 +2,7 @@
 layout: post
 title: Random Hex colours using Javascript
 categories:
+- old
 - code
 ---
 

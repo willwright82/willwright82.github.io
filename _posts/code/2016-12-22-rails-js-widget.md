@@ -2,6 +2,7 @@
 layout: post
 title: Creating an embeddable widget in Rails 4
 categories:
+- old
 - code
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Django maths using widthratio
 categories:
+- old
 - code
 ---
 

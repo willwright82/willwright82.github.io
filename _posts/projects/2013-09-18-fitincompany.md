@@ -2,6 +2,7 @@
 layout: post
 title: Fit In Company
 categories:
+- old
 - projects
 ---
 
