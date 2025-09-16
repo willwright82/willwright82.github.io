@@ -93,6 +93,10 @@ hr.medium {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+
+  .container {
+    display: flex;
+  }
 }
 
 .masthead-title {
@@ -118,16 +122,11 @@ hr.medium {
 @media (max-width: 48em) {
   .masthead-title {
     text-align: center;
-
+    width: 100%;
+    padding-right: 1.4rem;
     small {
       display: none;
     }
-  }
-}
-
-@media (max-width: 48em) {
-  .masthead-title {
-    text-align: center;
   }
 }
 
@@ -230,9 +229,9 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  // position: absolute;
+  // top: 1rem;
+  // left: 1rem;
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
@@ -240,6 +239,7 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: -0.65rem; 
 }
 
 .sidebar-toggle:before {
