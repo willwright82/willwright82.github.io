@@ -3,7 +3,6 @@ layout: post
 title: Javascript build using node.js
 categories:
 - old
-- code
 ---
 
 When coding in Javascript while using [SublimeText](http://www.sublimetext.com/3), it's handy to have a test console.

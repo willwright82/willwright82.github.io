@@ -3,7 +3,6 @@ layout: post
 title: Life Insurance Quotes UK
 categories:
 - old
-- projects
 ---
 
 A website dedicated to finding the best life insurance deals on the market. Life Insurance Quotes UK compares Life Insurance, Mortgage Life Insurance, Family Income Benefit, Critical Illness Cover and Whole of Life protection policies.

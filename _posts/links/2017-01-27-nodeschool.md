@@ -3,7 +3,6 @@ layout: post
 title: Nodeschool
 categories:
 - old
-- Links
 ---
 
 <p class="text-center">

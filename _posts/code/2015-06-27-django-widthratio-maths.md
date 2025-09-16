@@ -3,7 +3,6 @@ layout: post
 title: Django maths using widthratio
 categories:
 - old
-- code
 ---
 
 I use a lot of Django templating and one of my pet peeves is it's inability to handle simple maths. Seriously, why?

@@ -3,7 +3,6 @@ layout: post
 title: Random Hex colours using Javascript
 categories:
 - old
-- code
 ---
 
 Here is a quick and short way to generate random #Hex colours using Javascript:

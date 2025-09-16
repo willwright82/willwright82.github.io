@@ -3,7 +3,6 @@ layout: post
 title: Fit In Company
 categories:
 - old
-- projects
 ---
 
 Their goal is to make it affordable for any organisation in Brazil, to have efficient health programs and quality of life at the workplace, that generate full satisfaction and value for their customers, employees, investors and partners.
