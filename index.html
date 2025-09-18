@@ -20,15 +20,15 @@ permalink: /index.html
 <div class="posts projects">
   {% for post in site.posts %}
   {% if post.categories contains 'projects' %}
-	{% unless post.categories contains 'old' %}
     <div class="post">
-      <span class="post-date pull-right">{{ post.date | date_to_string }}</span>
+      <span class="post-date text-uppercase text-accent">{{ post.client }} | {{ post.timeframe }}</span>
       <h3 class="post-title">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h3>
+      <p>{{ post.summary }}</p>
+      <img src="{{ post.cover }}"" alt="{{ post.client}}">
       {% comment %}{{ post.content }}{% endcomment %}
     </div>
-  {% endunless %}
   {% endif %}
   {% endfor %}
 </div>

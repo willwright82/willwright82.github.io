@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Flavourly.com
+client: Flavourly
+timeframe: 2014–2016
+cover: /public/img/projects/flavourly3.jpg
+summary: Mobile-first website and in-house eCommerce "BrewStore", built with scalability, usability and quality user experience as a main focus.
 categories:
 - projects
 ---
