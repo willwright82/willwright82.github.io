@@ -5,18 +5,35 @@ permalink: /index.html
 ---
 
 <section class="intro-section">
-  <h1>Hey! I'm Will, a Product Designer &amp; UX Engineer with 20+ years' experience crafting user-centred solutions across tech, e-commerce, and creative industries, leading teams to deliver inclusive, impactful digital experiences.</h1>
+  <h1>Hey! I'm Will, a product designer &amp; UX engineer with 20+ years' experience crafting user-centred solutions across tech, e-commerce, and creative industries, leading teams to deliver inclusive, impactful digital experiences.</h1>
 </section>
 
 <section class="tags-section">
   <div class="tags">
     <div class="tag"><h4>Senior Product Designer</h4></div>
-    <div class="tag"><h4>UX Design Engineer</h4></div>
+    <div class="tag"><h4>UX Engineer</h4></div>
     <div class="tag"><h4>B2B | B2C | SaaS</h4></div>
     <div class="tag"><h4>Based in Edinburgh 🏴󠁧󠁢󠁳󠁣󠁴󠁿</h4></div>
   </div>
 </section>
 
+<div class="posts projects">
+  {% for post in site.posts %}
+  {% if post.categories contains 'projects' %}
+	{% unless post.categories contains 'old' %}
+    <div class="post">
+      <span class="post-date pull-right">{{ post.date | date_to_string }}</span>
+      <h3 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      {% comment %}{{ post.content }}{% endcomment %}
+    </div>
+  {% endunless %}
+  {% endif %}
+  {% endfor %}
+</div>
+
+{% comment %}
 <div class="posts archive">
     <!-- WAS: for post in paginator.posts -->
     {% for post in site.posts %}
@@ -34,6 +51,7 @@ permalink: /index.html
         {% endunless %}
     {% endfor %}
 </div>
+{% endcomment %}
 
 {% comment %}
 <div class="pagination">

@@ -20,6 +20,14 @@
  * Update the foundational and global aspects of the page.
  */
 
+:root {
+  --color-accent: #4AAFF0;
+  --color-primary: #313131;
+  --color-light-grey: #C0C0C0;
+  --color-muted: #505050;
+  --color-white: #FFFFFF;
+}
+
 /* Prevent scroll on narrow devices */
 html,
 body {
@@ -33,8 +41,16 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #313131;
+  color: var(--color-primary);
   letter-spacing: -.025rem;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-accent {
+  color: var(--color-accent);
 }
 
 hr.medium {
@@ -102,17 +118,17 @@ hr.medium {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: var(--color-muted);
 
   a {
-    color: #505050;
+    color: var(--color-muted);
     font-weight: 400;
   }
 
   small {
     font-size: 75%;
     font-weight: 300;
-    color: #c0c0c0;
+    color: var(--color-light-grey);
     letter-spacing: 0;
     text-transform: lowercase;
   }
@@ -166,11 +182,11 @@ hr.medium {
 
   a {
     font-weight: normal;
-    color: #fff;
+    color: var(--color-white);
   }
 
   strong {
-    color: #fff;
+    color: var(--color-white);
     font-weight: bolder;
   }
 }
@@ -234,8 +250,8 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
-  color: #505050;
-  background-color: #fff;
+  color: var(--color-muted);
+  background-color: var(--color-white);
   border-radius: 4px;
   cursor: pointer;
   margin-left: -0.65rem; 
@@ -257,7 +273,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle:active,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  color: #fff;
+  color: var(--color-white);
 
   /*background-color: #505050;*/
   background-color: #3F495A;
@@ -703,7 +719,7 @@ hr {
     align-items: center;
     // background-color: #268bd225;
     background-color: #DEEEF8;
-    color: #313131;
+    color: var(--color-primary);
     border-radius: 9999px; /* fully rounded */
     padding: 0.5rem 1rem;
   }
