@@ -17,15 +17,17 @@ permalink: /index.html
   </div>
 </section>
 
-<div class="posts projects">
+<div class="home posts projects">
   {% for post in site.posts %}
   {% if post.categories contains 'projects' %}
     <div class="post">
-      <span class="post-date text-uppercase text-accent">{{ post.client }} | {{ post.timeframe }}</span>
-      <h3 class="post-title">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h3>
-      <p>{{ post.summary }}</p>
+      <div class="main">
+        <h5 class="text-uppercase text-accent">{{ post.client }} | {{ post.timeframe }}</h5>
+        <h3 class="post-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h3>
+        <p>{{ post.summary }}</p>
+      </div>
       <img src="{{ post.cover }}"" alt="{{ post.client}}">
       {% comment %}{{ post.content }}{% endcomment %}
     </div>

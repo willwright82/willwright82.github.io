@@ -339,6 +339,13 @@ a.sidebar-nav-item:focus {
  * page is wrapped in `.page` and is only used on the page layout.
  */
 
+.posts.home {
+  .post {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .page, .post {
   margin-bottom: 4em;
 }
