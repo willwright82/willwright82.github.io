@@ -754,12 +754,15 @@ hr {
 }
 
 .btn {
-  padding: 1rem;
-  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px; /* fully rounded */
   border-width: 0px;
 }
 
 .btn-primary {
-  color: var(--color-white);
   background-color: var(--color-accent);
+  font-size: 1rem;
+  color: var(--color-white);
 }
