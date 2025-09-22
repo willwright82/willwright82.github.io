@@ -752,3 +752,14 @@ hr {
     color: inherit;
   }
 }
+
+.btn {
+  padding: 1rem;
+  border-radius: 100px;
+  border-width: 0px;
+}
+
+.btn-primary {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+}
