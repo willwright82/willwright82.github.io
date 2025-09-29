@@ -134,7 +134,16 @@ hr.medium {
   }
 }
 
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 @media (max-width: 48em) {
+  .sidebar-toggle {
+    display: block;
+  }
   .masthead-title {
     text-align: center;
     width: 100%;
@@ -142,6 +151,9 @@ hr.medium {
     small {
       display: none;
     }
+  }
+  .header-nav {
+    display: none;
   }
 }
 
@@ -247,7 +259,7 @@ a.sidebar-nav-item:focus {
   // position: absolute;
   // top: 1rem;
   // left: 1rem;
-  display: block;
+  display: none;
   width: 2.2rem;
   padding: .5rem .65rem;
   color: var(--color-muted);
