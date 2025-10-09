@@ -18,18 +18,18 @@
             <small class="code">{{ site.tagline }}</small>
           </h3>
           <nav class="header-nav">
-            <!-- <a class="header-nav-item{% if page.url == site.bloghome %} active{% endif %}" href="{{ site.blogurl }}">Journal</a> -->
-            <a class="header-nav-item{% if page.url == site.projectshome %} active{% endif %}" href="{{ site.projectsurl }}">Case Studies</a>
+            <!-- <a class="header-font header-nav-item{% if page.url == site.bloghome %} active{% endif %}" href="{{ site.blogurl }}">Journal</a> -->
+            <a class="header-font header-nav-item{% if page.url == site.projectshome %} active{% endif %}" href="{{ site.projectsurl }}">Case Studies</a>
             {% assign pages_list = site.pages | sort:"url" %}
             {% for node in pages_list %}
               {% if node.title != null %}
                 {% if node.layout == "page" %}
-                  <a class="header-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+                  <a class="header-font header-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
                 {% endif %}
               {% endif %}
             {% endfor %}
-            <a class="header-nav-item" href="/willwright.pdf" target="_blank">Resume</a>
-            <a class="header-nav-item" href="//uk.linkedin.com/in/wrightwilliam" target="_blank">LinkedIn</a>
+            <a class="header-font header-nav-item" href="//uk.linkedin.com/in/wrightwilliam" target="_blank">LinkedIn</a>
+            <a class="header-font header-nav-item" href="/willwright.pdf" target="_blank">Resume</a>
           </nav>
         </div>
       </div>

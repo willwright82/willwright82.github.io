@@ -38,11 +38,14 @@ html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
 }
 
-h1, h2, h3, h4, h5, h6, .btn {
+h1, h2, h3, h4, h5, h6, .btn, .header-font {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: var(--color-primary);
   letter-spacing: -.025rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary);
 }
 
 .text-uppercase {
@@ -112,6 +115,7 @@ hr.medium {
 
   .container {
     display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -142,7 +146,7 @@ hr.medium {
 
 @media (max-width: 48em) {
   .sidebar-toggle {
-    display: block;
+    display: block !important;
   }
   .masthead-title {
     text-align: center;
