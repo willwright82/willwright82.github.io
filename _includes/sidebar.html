@@ -10,9 +10,9 @@
 
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
-    <a class="sidebar-nav-item{% if page.url == site.bloghome %} active{% endif %}" href="{{ site.blogurl }}">Journal</a>
-    <!-- <a class="sidebar-nav-item{% if page.url == site.projectshome %} active{% endif %}" href="{{ site.projectsurl }}">Projects</a>-->
     {% comment %}
+    <a class="sidebar-nav-item{% if page.url == site.bloghome %} active{% endif %}" href="{{ site.blogurl }}">Journal</a>
+    <a class="sidebar-nav-item{% if page.url == site.projectshome %} active{% endif %}" href="{{ site.projectsurl }}">Projects</a>
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
@@ -25,13 +25,15 @@
       {% endif %}
     {% endfor %}
     {% comment %}
-    <a class="sidebar-nav-item" href="https://www.icloud.com/iclouddrive/078_id9oNxki-QzaXGXjqTXtQ#WillWright" target="_blank">Download Resume</a>
+    <a class="sidebar-nav-item" href="https://www.icloud.com/iclouddrive/078_id9oNxki-QzaXGXjqTXtQ#WillWright" target="_blank">Resume</a>
     {% endcomment %}
-    <a class="sidebar-nav-item" href="/willwright.pdf" target="_blank">Download Resume</a>
+    <a href="//uk.linkedin.com/in/wrightwilliam" target="_blank" class="sidebar-nav-item">LinkedIn</a>
+    <a class="sidebar-nav-item" href="/willwright.pdf" target="_blank">Resume</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item copyright">
+    {% comment %}
     <p>
       <ul class="social-buttons text-center">
         <li><a href="//twitter.com/intent/follow?screen_name=WilliamWright" target="_blank" class="social-btn"><i class="fa fa-2x fa-twitter-square"></i></a></li>
@@ -41,9 +43,12 @@
         <li><a href="//github.com/willwright82" target="_blank" class="social-btn"><i class="fa fa-2x fa-github-square"></i></a></li>
       </ul>
     </p>
+    {% endcomment %}
     <p class="text-center">
-      &copy; {{ site.time | date: '%Y' }} &mdash; <a href="{{ site.author.linkedin }}">{{ site.author.name }}</a><br>
-      Hosted on <a href="{{ site.github.repo }}" target="_blank">Github Pages</a>
+      &copy; {{ site.time | date: '%Y' }} &mdash; <a href="{{ site.author.linkedin }}">{{ site.author.name }}</a>
+      {% comment %}
+      <br>Hosted on <a href="{{ site.github.repo }}" target="_blank">Github Pages</a>
+      {% endcomment %}
     </p>
   </div>
 </div>
