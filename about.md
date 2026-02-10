@@ -9,14 +9,19 @@ title: About
 
 <p class="lead">Currently Senior UX Design Engineer at <a href="//www.parsleybox.com" target="_blank">Parsley Box</a> and Mentor at <a href="//www.codeyourfuture.co" target="_blank">CodeYourFuture</a>. Previously at Machine Labs, Kindaba, Clazzoo, Flavourly, Nautilus & Apple. Dad.</p>
 
-Will Wright is a Senior UX Design Engineer with 20+ years’ experience delivering intuitive, high-impact digital products for startups, agencies, and established brands. Specialised in user experience, wireframing, prototyping, and end-to-end product design using Figma and modern web technologies, his approach is rooted in empathy and evidence, ensuring every solution is both delightful and effective for real users.
+Will Wright is a strategic product and user experience leader based in Edinburgh, with over 20 years’ experience building and scaling digital products for consumer brands and SaaS businesses. He specialises in joining the dots between product, design, engineering and marketing to drive customer acquisition, engagement and long‑term loyalty.
 
-Besides Parsley Box Will is also a Mentor at CodeYourFuture --- a non-profit organisation supporting refugees with the dream of becoming software developers, and he enjoys playing tennis, brazilian jiu-jitsu, photography, and spending time with his family.
+Will has led product and UX across AI‑powered platforms, e‑commerce and subscription services, working from discovery and prioritisation through to launch and continuous optimisation. He has a strong track record in designing and evolving design systems, simplifying complex journeys, and using data and user insight to guide decisions.
 
-He currently lives in Edinburgh with his two sons.
+Beyond his product work, Will is a long‑standing mentor at CodeYourFuture, supporting refugees and people from disadvantaged backgrounds into software careers, and has co‑organised community meetups in the Edinburgh tech scene. Outside of work he enjoys photography, climbing, hillwalking and spending time with his family.
+
+He lives in Edinburgh with his two sons.
 <hr>
 
 ## Recommendations
+
+*Will worked hard to turn the Parsley Box website into an experience that was straightforward to use for our older demographic and also met the particular requirements we had as a business. We get a lot of compliments from customers on how easy the site is to use and navigate - for a customer base that is older and not always au fait with computers and the online world this is incredible.*
+<br><small>~ Paul Kerr, Tech Team Lead @ Parsley Box</small>
 
 *”We had a lot of comments that the UX of our product was better than the competitors, which was mainly down to Will. It's much easier to create a complicated UI than a simple one but he did a great job on making an incredibly complex product easy to use.“*
 <br><small>~ Andrew Veitch, CEO at Machine Labs</small>
